@@ -335,7 +335,7 @@ DocType: Naming Series,Update Series Number,עדכון סדרת מספר
 apps/erpnext/erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.js,Warranty Claim,הפעיל אחריות
 apps/erpnext/erpnext/stock/doctype/warehouse/warehouse.py,Warehouse can not be deleted as stock ledger entry exists for this warehouse.,מחסן לא ניתן למחוק ככניסת פנקס המניות קיימת למחסן זה.
 apps/erpnext/erpnext/templates/includes/cart/cart_dropdown.html,Cart is Empty,עגלה ריקה
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,זה אתר דוגמא שנוצר אוטומטית מERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,זה אתר דוגמא שנוצר אוטומטית מERPNext
 apps/erpnext/erpnext/config/accounting.py,"e.g. Bank, Cash, Credit Card","למשל בנק, מזומן, כרטיס אשראי"
 apps/erpnext/erpnext/config/settings.py,Country wise default Address Templates,תבניות כתובת ברירת מחדל חכם ארץ
 apps/erpnext/erpnext/config/manufacturing.py,Time Sheet for manufacturing.,זמן גיליון לייצור.
@@ -718,7 +718,7 @@ DocType: Email Digest,Open Notifications,הודעות פתוחות
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.js,From Delivery Note,מתעודת משלוח
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.py,Invoiced Amount,סכום חשבונית
 DocType: Program Enrollment Fee,Program Enrollment Fee,הרשמה לתכנית דמים
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","כדי לקבל את הטוב ביותר של ERPNext, אנו ממליצים שתיקחו קצת זמן ולצפות בקטעי וידאו עזרה אלה."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","כדי לקבל את הטוב ביותר של ERPV, אנו ממליצים שתיקחו קצת זמן ולצפות בקטעי וידאו עזרה אלה."
 DocType: Student Group Creation Tool,Student Group Creation Tool,כלי יצירת סטודנט קבוצה
 DocType: HR Settings,Payroll Settings,הגדרות שכר
 apps/erpnext/erpnext/controllers/accounts_controller.py,Total advance ({0}) against Order {1} cannot be greater than the Grand Total ({2}),מראש סה&quot;כ ({0}) נגד להזמין {1} לא יכול להיות גדול יותר מהסך כולל ({2})
@@ -1953,7 +1953,7 @@ DocType: Cost Center,Cost Center Name,שם מרכז עלות
 DocType: Student Applicant,Application Date,תאריך הבקשה
 apps/erpnext/erpnext/hr/doctype/payroll_entry/payroll_entry.js,Submit Salary Slip,שלח שכר Slip
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Direct Expenses,הוצאות ישירות
-,Welcome to ERPNext,ברוכים הבאים לERPNext
+,Welcome to ERPV,ברוכים הבאים לERPNext
 DocType: Work Order Operation,Actual End Time,בפועל שעת סיום
 DocType: Account,Income Account,חשבון הכנסות
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.py,{0} {1} has been modified. Please refresh.,{0} {1} כבר שונה. אנא רענן.
@@ -2247,7 +2247,7 @@ DocType: Warehouse,Warehouse Name,שם מחסן
 DocType: HR Settings,HR Settings,הגדרות HR
 DocType: SMS Center,All Lead (Open),כל הלידים (פתוח)
 DocType: Employee Leave Approver,Users who can approve a specific employee's leave applications,משתמשים שיכולים לאשר בקשות החופשה של עובד ספציפי
-DocType: Item,Publish Item to hub.erpnext.com,פרסם פריט לhub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,פרסם פריט לhub.erpv.advintic.com
 DocType: Bin,Stock Value,מניית ערך
 DocType: Payment Request,payment_url,payment_url
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.py,Productions Orders cannot be raised for:,הזמנות הפקות לא ניתן להעלות על:
@@ -3013,7 +3013,7 @@ apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Administr
 DocType: Pricing Rule,Price,מחיר
 apps/erpnext/erpnext/stock/doctype/item/item.py,Row #{0}: Please set reorder quantity,# השורה {0}: אנא הגדר כמות הזמנה חוזרת
 apps/erpnext/erpnext/config/buying.py,Bundle items at time of sale.,פריטי Bundle בעת מכירה.
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,לקרוא את מדריך ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,לקרוא את מדריך ERPV
 DocType: Assessment Plan,Course,קוּרס
 apps/erpnext/erpnext/controllers/accounts_controller.py,Accounting Entry for {0}: {1} can only be made in currency: {2},חשבונאות כניסה עבור {0}: {1} יכול להתבצע רק במטבע: {2}
 DocType: Item,If subcontracted to a vendor,אם קבלן לספקים
@@ -3247,7 +3247,7 @@ apps/erpnext/erpnext/public/js/setup_wizard.js,Select the nature of your busines
 apps/erpnext/erpnext/stock/dashboard/item_dashboard.js,Add more items or open full form,תוכלו להוסיף עוד פריטים או מלא טופס פתוח
 apps/erpnext/erpnext/assets/doctype/asset/asset.js,Do you really want to restore this scrapped asset?,האם אתה באמת רוצה לשחזר נכס לגרוטאות זה?
 apps/erpnext/erpnext/public/js/conf.js,Report an Issue,דווח על בעיה
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,עבור לשולחן העבודה ולהתחיל להשתמש ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,עבור לשולחן העבודה ולהתחיל להשתמש ERPV
 apps/erpnext/erpnext/config/crm.py,Visit report for maintenance call.,"בקר בדו""ח לשיחת תחזוקה."
 apps/erpnext/erpnext/stock/doctype/packing_slip/packing_slip.py,Delivery Note {0} must not be submitted,תעודת משלוח {0} אסור תוגש
 apps/erpnext/erpnext/buying/doctype/request_for_quotation/request_for_quotation.js,Please supply the specified items at the best possible rates,נא למלא את הסעיפים המפורטים בשיעורים הטובים ביותר האפשריים

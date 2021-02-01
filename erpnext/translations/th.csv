@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,ต้นทุนและการเร�
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},สกุลเงินของบัญชี Advance ควรเหมือนกับสกุลเงินของ บริษัท {0}
 DocType: QuickBooks Migrator,Token Endpoint,Token Endpoint
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,บัญชี {0}: บัญชีผู้ปกครอง {1} ไม่สามารถแยกประเภท
-DocType: Item,Publish Item to hub.erpnext.com,เผยแพร่รายการที่จะ hub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,เผยแพร่รายการที่จะ hub.erpv.advintic.com
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,ไม่สามารถหาช่วงเวลาที่ใช้งานได้
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,การประเมินผล
 DocType: Item,Default Unit of Measure,หน่วยเริ่มต้นของวัด
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,รายละเอีย�
 DocType: Asset Maintenance Log,Periodicity,การเป็นช่วง ๆ
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,ปีงบประมาณ {0} จะต้อง
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,กำไร / ขาดทุนสุทธิ
-DocType: Employee Group Table,ERPNext User ID,ERPNext ID ผู้ใช้
+DocType: Employee Group Table,ERPV User ID,ERPV ID ผู้ใช้
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,ระยะห่างระหว่างแถวของพืชน้อยที่สุดสำหรับการเจริญเติบโตที่ดีที่สุด
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,กรุณาเลือกผู้ป่วยที่จะได้รับขั้นตอนที่กำหนด
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,ฝ่ายจำเลย
@@ -485,7 +485,7 @@ DocType: Supplier Scorecard,Criteria Setup,การตั้งค่าเก�
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,สำหรับ คลังสินค้า จะต้อง ก่อนที่จะ ส่ง
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,ที่ได้รับใน
 DocType: Codification Table,Medical Code,รหัสทางการแพทย์
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,เชื่อมต่อ Amazon กับ ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,เชื่อมต่อ Amazon กับ ERPV
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,ติดต่อเรา
 DocType: Delivery Note Item,Against Sales Invoice Item,กับใบแจ้งหนี้การขายสินค้า
 DocType: Agriculture Analysis Criteria,Linked Doctype,Linked DOCTYPE
@@ -742,7 +742,7 @@ DocType: POS Closing Voucher,Difference,ข้อแตกต่าง
 DocType: Delivery Settings,Delay between Delivery Stops,ความล่าช้าระหว่างการจัดส่ง
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},อนุกรม ไม่มี {0} ไม่ได้อยู่ใน การจัดส่งสินค้า หมายเหตุ {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",ดูเหมือนว่าจะมีปัญหากับการกำหนดค่า GoCardless ของเซิร์ฟเวอร์ ไม่ต้องกังวลในกรณีของความล้มเหลวจำนวนเงินจะได้รับคืนไปยังบัญชีของคุณ
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext สาธิต
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV สาธิต
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,เพิ่มรายการ
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,รายการพารามิเตอร์การตรวจสอบคุณภาพ
 DocType: Leave Application,Leave Approver Name,ชื่อผู้อนุมัติการลา
@@ -809,7 +809,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,กรุณาใส่ ชื่อของ บริษัท เป็นครั้งแรก
 DocType: Travel Itinerary,Non-Vegetarian,มังสวิรัติ
 DocType: Purchase Invoice,Supplier Name,ชื่อผู้จัดจำหน่าย
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,อ่านคู่มือ ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,อ่านคู่มือ ERPV
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,แสดงใบสมาชิกของแผนกทั้งหมดในปฏิทิน
 DocType: Purchase Invoice,01-Sales Return,01- ขายกลับ
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,จำนวนต่อบรรทัด BOM
@@ -1489,7 +1489,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,ค่าใช้จ่ายใน การบำรุงรักษา สำนักงาน
 ,BOM Explorer,BOM Explorer
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,ไปที่
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,อัปเดตราคาจาก Shopify ไปยังรายการราคา ERPNext
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,อัปเดตราคาจาก Shopify ไปยังรายการราคา ERPV
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,การตั้งค่าบัญชีอีเมล
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,กรุณากรอก รายการ แรก
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,การวิเคราะห์ความต้องการ
@@ -1617,7 +1617,7 @@ DocType: Fertilizer,Fertilizer Contents,สารปุ๋ย
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,การวิจัยและพัฒนา
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,จำนวนเงินที่จะเรียกเก็บเงิน
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,ตามเงื่อนไขการชำระเงิน
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,การตั้งค่า ERPNext
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,การตั้งค่า ERPV
 DocType: Company,Registration Details,รายละเอียดการลงทะเบียน
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,ไม่สามารถตั้งค่าข้อตกลงระดับบริการ {0}
 DocType: Timesheet,Total Billed Amount,รวมเงินที่เรียกเก็บ
@@ -1657,7 +1657,7 @@ DocType: Leave Type,Encashment Threshold Days,วันที่เกณฑ์�
 ,Final Assessment Grades,คะแนนการประเมินขั้นสุดท้าย
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,ชื่อของ บริษัท ของคุณ ที่คุณ มีการตั้งค่า ระบบนี้
 DocType: HR Settings,Include holidays in Total no. of Working Days,รวมถึงวันหยุดในไม่รวม ของวันทําการ
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,ตั้งสถาบันของคุณใน ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,ตั้งสถาบันของคุณใน ERPV
 DocType: Agriculture Analysis Criteria,Plant Analysis,การวิเคราะห์พืช
 DocType: Task,Timeline,ไทม์ไลน์
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,ถือ
@@ -1737,7 +1737,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,ใบแจ้งห
 DocType: Shift Type,Every Valid Check-in and Check-out,ทุกการเช็คอินและเช็คเอาท์ที่ถูกต้อง
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},แถว {0}: รายการเครดิตไม่สามารถเชื่อมโยงกับ {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,กำหนดงบประมาณสำหรับปีงบการเงิน
-DocType: Shopify Tax Account,ERPNext Account,บัญชี ERPNext
+DocType: Shopify Tax Account,ERPV Account,บัญชี ERPV
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,ระบุปีการศึกษาและกำหนดวันเริ่มต้นและสิ้นสุด
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,{0} ถูกบล็อกเพื่อไม่ให้ดำเนินการต่อไป
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,การดำเนินการหากงบประมาณรายเดือนสะสมเกินกว่า MR
@@ -1928,7 +1928,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,ไม่สามารถเป็นสินทรัพย์ถาวรได้เนื่องจากสร้างบัญชีแยกประเภทแล้ว
 DocType: Subscription Plan,Fixed rate,อัตราคงที่
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,ยอมรับ
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,ไปยัง Desktop และเริ่มต้นใช้ ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,ไปยัง Desktop และเริ่มต้นใช้ ERPV
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,จ่ายเงินที่เหลืออยู่
 DocType: Purchase Invoice Item,Manufacturer,ผู้ผลิต
 DocType: Landed Cost Item,Purchase Receipt Item,ซื้อสินค้าใบเสร็จรับเงิน
@@ -2118,7 +2118,7 @@ DocType: Employee Checkin,Shift End,สิ้นสุดกะ
 DocType: Stock Settings,Default Item Group,กลุ่มสินค้าเริ่มต้น
 DocType: Job Card Time Log,Time In Mins,เวลาในนาที
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,ให้ข้อมูล
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,การกระทำนี้จะยกเลิกการเชื่อมโยงบัญชีนี้จากบริการภายนอกใด ๆ ที่รวม ERPNext กับบัญชีธนาคารของคุณ ไม่สามารถยกเลิกได้ คุณแน่ใจหรือ
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,การกระทำนี้จะยกเลิกการเชื่อมโยงบัญชีนี้จากบริการภายนอกใด ๆ ที่รวม ERPV กับบัญชีธนาคารของคุณ ไม่สามารถยกเลิกได้ คุณแน่ใจหรือ
 apps/erpnext/erpnext/config/buying.py,Supplier database.,ฐานข้อมูลผู้ผลิต
 DocType: Contract Template,Contract Terms and Conditions,ข้อกำหนดในการให้บริการของสัญญา
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,คุณไม่สามารถรีสตาร์ทการสมัครสมาชิกที่ไม่ได้ยกเลิกได้
@@ -2259,7 +2259,7 @@ DocType: Purchase Invoice,Rejected Warehouse,คลังสินค้าป�
 DocType: GL Entry,Against Voucher,กับบัตรกำนัล
 DocType: Item Default,Default Buying Cost Center,ศูนย์รายจ่ายการซื้อเริ่มต้น
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,ใหม่การชำระเงิน
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",เพื่อให้ได้สิ่งที่ดีที่สุดของ ERPNext เราขอแนะนำให้คุณใช้เวลาในการดูวิดีโอเหล่านี้ช่วย
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.",เพื่อให้ได้สิ่งที่ดีที่สุดของ ERPV เราขอแนะนำให้คุณใช้เวลาในการดูวิดีโอเหล่านี้ช่วย
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),สำหรับผู้จัดจำหน่ายเริ่มต้น (ตัวเลือก)
 DocType: Supplier Quotation Item,Lead Time in days,ระยะเวลาในวันที่
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),เป้าหมาย ({})
@@ -4022,7 +4022,7 @@ DocType: Quality Meeting,Agenda,ระเบียบวาระการปร
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,รายละเอียดกำหนดการซ่อมบำรุง
 DocType: Supplier Scorecard,Warn for new Purchase Orders,เตือนคำสั่งซื้อใหม่
 DocType: Quality Inspection Reading,Reading 9,อ่าน 9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,เชื่อมต่อบัญชี Exotel ของคุณกับ ERPNext และติดตามบันทึกการโทร
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,เชื่อมต่อบัญชี Exotel ของคุณกับ ERPV และติดตามบันทึกการโทร
 DocType: Supplier,Is Frozen,ถูกแช่แข็ง
 DocType: Tally Migration,Processed Files,ไฟล์ประมวลผล
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,คลังสินค้าโหนดกลุ่มไม่ได้รับอนุญาตให้เลือกสำหรับการทำธุรกรรม
@@ -4175,7 +4175,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} กับใบสั่งซื้อ {1}
 DocType: Patient,Patient Demographics,ข้อมูลประชากรผู้ป่วย
 DocType: Task,Actual Start Date (via Time Sheet),วันที่เริ่มต้นที่เกิดขึ้นจริง (ผ่านใบบันทึกเวลา)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,เว็บไซต์ นี้เป็น ตัวอย่างที่สร้างขึ้นโดยอัตโนมัติ จาก ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,เว็บไซต์ นี้เป็น ตัวอย่างที่สร้างขึ้นโดยอัตโนมัติ จาก ERPV
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,ช่วงสูงอายุ 1
 DocType: Shopify Settings,Enable Shopify,เปิดใช้ Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,จำนวนเงินล่วงหน้าทั้งหมดต้องไม่เกินจำนวนที่เรียกร้อง
@@ -4522,7 +4522,7 @@ DocType: Work Order Operation,Planned Start Time,เวลาเริ่มต�
 DocType: Course,Assessment,การประเมินผล
 DocType: Payment Entry Reference,Allocated,จัดสรร
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,ปิด งบดุล และงบกำไร ขาดทุน หรือ หนังสือ
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext ไม่พบรายการชำระเงินที่ตรงกัน
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPV ไม่พบรายการชำระเงินที่ตรงกัน
 DocType: Student Applicant,Application Status,สถานะการสมัคร
 DocType: Additional Salary,Salary Component Type,เงินเดือนประเภทคอมโพเนนต์
 DocType: Sensitivity Test Items,Sensitivity Test Items,รายการทดสอบความไว
@@ -4863,7 +4863,7 @@ DocType: Department,Expense Approver,ค่าใช้จ่ายที่อ�
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,แถว {0}: ล่วงหน้ากับลูกค้าจะต้องมีเครดิต
 DocType: Quality Meeting,Quality Meeting,การประชุมคุณภาพ
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,ที่ไม่ใช่กลุ่มกลุ่ม
-DocType: Employee,ERPNext User,ผู้ใช้ ERPNext
+DocType: Employee,ERPV User,ผู้ใช้ ERPV
 DocType: Coupon Code,Coupon Description,รายละเอียดคูปอง
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},แบทช์มีผลบังคับในแถว {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},แบทช์มีผลบังคับในแถว {0}
@@ -5306,7 +5306,7 @@ DocType: Loyalty Point Entry,Redeem Against,แลกกับ
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,การธนาคารและการชำระเงิน
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,โปรดป้อนคีย์ข้อมูลผู้ใช้ API
 DocType: Issue,Service Level Agreement Fulfilled,ข้อตกลงระดับการบริการที่ตอบสนอง
-,Welcome to ERPNext,ขอต้อนรับสู่ ERPNext
+,Welcome to ERPV,ขอต้อนรับสู่ ERPV
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,นำไปสู่การเสนอราคา
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,การแจ้งเตือนทางอีเมลจะถูกส่งไปให้ทุกฝ่ายที่มีที่ติดต่อทางอีเมล
 DocType: Project,Twice Daily,วันละสองครั้ง
@@ -5780,7 +5780,7 @@ DocType: Account,Bank,ธนาคาร
 DocType: Job Card,Job Started,เริ่มงาน
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,สายการบิน
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,ฉบับวัสดุ
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,เชื่อมต่อ Shopify กับ ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,เชื่อมต่อ Shopify กับ ERPV
 DocType: Production Plan,For Warehouse,สำหรับโกดัง
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,บันทึกการจัดส่ง {0}
 DocType: Employee,Offer Date,ข้อเสนอ วันที่
@@ -5905,7 +5905,7 @@ DocType: Leave Control Panel,Carry Forward,Carry Forward
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,ศูนย์ต้นทุน กับการทำธุรกรรม ที่มีอยู่ ไม่สามารถ แปลงเป็น บัญชีแยกประเภท
 DocType: Budget,Applicable on booking actual expenses,สามารถใช้ในการจองค่าใช้จ่ายจริง
 DocType: Department,Days for which Holidays are blocked for this department.,วันที่วันหยุดจะถูกบล็อกสำหรับแผนกนี้
-DocType: Amazon MWS Settings,ERPNext Integrations,บูรณาการ ERPNext
+DocType: Amazon MWS Settings,ERPV Integrations,บูรณาการ ERPV
 DocType: Crop Cycle,Detected Disease,โรคที่ตรวจพบ
 ,Produced,ผลิต
 DocType: Issue,Raised By (Email),โดยยก (อีเมล์)
@@ -6692,7 +6692,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,คำนวณเวลาเข้าพักโดยประมาณ
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,บัญชี: {0} เท่านั้นที่สามารถได้รับการปรับปรุงผ่านการทำธุรกรรมสต็อก
 DocType: Student Group Creation Tool,Get Courses,รับหลักสูตร
-DocType: Tally Migration,ERPNext Company,บริษัท ERPNext
+DocType: Tally Migration,ERPV Company,บริษัท ERPV
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,งานเลี้ยง
 DocType: Healthcare Settings,Patient Name,ชื่อผู้ป่วย
@@ -6871,7 +6871,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,อนุญาตใ�
 DocType: Bank Guarantee,Receiving,การได้รับ
 DocType: Training Event Employee,Invited,ได้รับเชิญ
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,บัญชีการติดตั้งเกตเวย์
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,เชื่อมต่อบัญชีธนาคารของคุณกับ ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,เชื่อมต่อบัญชีธนาคารของคุณกับ ERPV
 DocType: Employee,Employment Type,ประเภทการจ้างงาน
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,สร้างโครงการจากเทมเพลต
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,สินทรัพย์ถาวร

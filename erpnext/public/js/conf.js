@@ -5,13 +5,13 @@ frappe.provide('erpnext');
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
-	frappe.app.name = "ERPNext";
+	frappe.app.name = "ERPV";
 
 	frappe.help_feedback_link = '<p><a class="text-muted" \
-		href="https://discuss.erpnext.com">Feedback</a></p>'
+		href="https://discuss.erpv.advintic.com">Feedback</a></p>'
 
 
-	$('[data-link="docs"]').attr("href", "https://erpnext.com/docs")
+	$('[data-link="docs"]').attr("href", "https://erpv.advintic.com/docs")
 	$('[data-link="issues"]').attr("href", "https://github.com/frappe/erpnext/issues")
 
 
@@ -20,9 +20,9 @@ $(document).bind('toolbar_setup', function() {
 
 	// additional help links for erpnext
 	var $help_menu = $('.dropdown-help ul .documentation-links');
-	$('<li><a data-link-type="forum" href="https://erpnext.com/docs/user/manual" \
+	$('<li><a data-link-type="forum" href="https://erpv.advintic.com/docs/user/manual" \
 		target="_blank">'+__('Documentation')+'</a></li>').insertBefore($help_menu);
-	$('<li><a data-link-type="forum" href="https://discuss.erpnext.com" \
+	$('<li><a data-link-type="forum" href="https://discuss.erpv.advintic.com" \
 		target="_blank">'+__('User Forum')+'</a></li>').insertBefore($help_menu);
 	$('<li><a href="https://github.com/frappe/erpnext/issues" \
 		target="_blank">'+__('Report an Issue')+'</a></li>').insertBefore($help_menu);
@@ -54,7 +54,7 @@ $.extend(frappe.breadcrumbs.preferred, {
 });
 
 $.extend(frappe.breadcrumbs.module_map, {
-	'ERPNext Integrations': 'Integrations',
+	'ERPV Integrations': 'Integrations',
 	'Geo': 'Settings',
 	'Portal': 'Website',
 	'Utilities': 'Settings',

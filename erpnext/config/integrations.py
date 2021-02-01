@@ -29,22 +29,22 @@ def get_data():
 				{
 					"type": "doctype",
 					"name": "Shopify Settings",
-					"description": _("Connect Shopify with ERPNext"),
+					"description": _("Connect Shopify with ERPV"),
 				},
 				{
 					"type": "doctype",
 					"name": "Amazon MWS Settings",
-					"description": _("Connect Amazon with ERPNext"),
+					"description": _("Connect Amazon with ERPV"),
 				},
 				{
 					"type": "doctype",
 					"name": "Plaid Settings",
-					"description": _("Connect your bank accounts to ERPNext"),
+					"description": _("Connect your bank accounts to ERPV"),
 				},
 				{
 					"type": "doctype",
 					"name": "Exotel Settings",
-					"description": _("Connect your Exotel Account to ERPNext and track call logs"),
+					"description": _("Connect your Exotel Account to ERPV and track call logs"),
 				}
 			]
 		}

@@ -19,7 +19,7 @@ apps/erpnext/erpnext/accounts/report/balance_sheet/balance_sheet.py,Liabilities,
 DocType: Project,Costing and Billing,لګښت او اولګښت
 DocType: QuickBooks Migrator,Token Endpoint,د توین پای ټکی
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,ګڼون {0}: Parent حساب {1} نه شي د پنډو وي
-DocType: Item,Publish Item to hub.erpnext.com,ته hub.erpnext.com د قالب د خپرېدو
+DocType: Item,Publish Item to hub.erpv.advintic.com,ته hub.erpv.advintic.com د قالب د خپرېدو
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,د فعالې دورې دوره نشي موندلی
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,ارزونې
 DocType: Item,Default Unit of Measure,د اندازه کولو واحد (Default)
@@ -143,7 +143,7 @@ DocType: Purchase Invoice Item,Item Weight Details,د وزن وزن توضیحا
 DocType: Asset Maintenance Log,Periodicity,Periodicity
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,مالي کال د {0} ته اړتیا لیدل کیږي
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,خالص ګټه / زیان
-DocType: Employee Group Table,ERPNext User ID,د ERPNext کارن نوم
+DocType: Employee Group Table,ERPV User ID,د ERPV کارن نوم
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,د مطلوب ودې لپاره د نباتاتو قطارونو تر منځ لږ تر لږه فاصله
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,مهرباني وکړئ د ټاکل شوې پروسې ترلاسه کولو لپاره ناروغ غوره کړئ
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,د دفاع
@@ -478,7 +478,7 @@ DocType: Supplier Scorecard,Criteria Setup,معیار معیار
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,د ګدام مخکې اړتیا سپارل
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,د ترلاسه
 DocType: Codification Table,Medical Code,روغتیایی کود
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,ایمیزون سره د ERPNext سره نښلول
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,ایمیزون سره د ERPV سره نښلول
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,موږ سره اړیکه ونیسئ
 DocType: Delivery Note Item,Against Sales Invoice Item,په وړاندې د خرڅلاو صورتحساب د قالب
 DocType: Agriculture Analysis Criteria,Linked Doctype,تړل شوي دکتیک ډول
@@ -731,7 +731,7 @@ DocType: POS Closing Voucher,Difference,توپیر
 DocType: Delivery Settings,Delay between Delivery Stops,د سپارلو بندیزونو ترمنځ ځنډ
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},شعبه {0} نه د سپارنې يادونه سره تړاو نه لري {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",داسې ښکاري چې د سرور د ګورتورډ کنټرول سره یو مسله وي. اندیښنه مه کوئ، د ناکامۍ په صورت کې، ستاسو د حساب رقم به بیرته ترلاسه شي.
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext قالب
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV قالب
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,سامان ورزیات کړئ
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,د قالب د کیفیت د تفتیش د پاراميټر
 DocType: Leave Application,Leave Approver Name,پريږدئ Approver نوم
@@ -797,7 +797,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,مهرباني وکړئ د شرکت نوم د لومړي ننوځي
 DocType: Travel Itinerary,Non-Vegetarian,غیر سبزیج
 DocType: Purchase Invoice,Supplier Name,عرضه کوونکي نوم
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,د ERPNext لارښود ادامه
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,د ERPV لارښود ادامه
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,د ټولو څانګو د غړو پاڼي په Calendar کې ښکاره کړئ
 DocType: Purchase Invoice,01-Sales Return,د پلور پلورنې 01
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,مقدار په BOM لاین کې
@@ -1445,7 +1445,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,دفتر د ترمیم لګښتونه
 ,BOM Explorer,د BOM سپړونکی
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,ورتګ
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,د لوړې بیې لیست وړاندې د ERPN د پرچون پلورونکو قیمتونو څخه د نوي کولو قیمت
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,د لوړې بیې لیست وړاندې د ERPN د پرچون پلورونکو قیمتونو څخه د نوي کولو قیمت
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,ترتیبول بريښناليک حساب
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,مهرباني وکړئ لومړی د قالب ته ننوځي
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,د اړتیاوو تحلیل
@@ -1572,7 +1572,7 @@ DocType: Fertilizer,Fertilizer Contents,د سرې وړ توکي
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,د څیړنې او پراختیا
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,ته بیل اندازه
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,د تادیې شرایطو پراساس
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,د ERP نیټې امستنې
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,د ERP نیټې امستنې
 DocType: Company,Registration Details,د نوم ليکنې په بشپړه توګه کتل
 DocType: Timesheet,Total Billed Amount,Total محاسبې ته مقدار
 DocType: Item Reorder,Re-Order Qty,Re-نظم Qty
@@ -1611,7 +1611,7 @@ DocType: Leave Type,Encashment Threshold Days,د دریمې دورې اختطا�
 ,Final Assessment Grades,د ارزونې ارزونه
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,د خپل شرکت نوم د کوم لپاره چې تاسو دا سيستم د جوړولو.
 DocType: HR Settings,Include holidays in Total no. of Working Days,په Total رخصتي شامل نه. د کاري ورځې
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,خپل انسټیټیوټ په ERPNext کې تنظیم کړئ
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,خپل انسټیټیوټ په ERPV کې تنظیم کړئ
 DocType: Agriculture Analysis Criteria,Plant Analysis,د پلان شننه
 DocType: Task,Timeline,د وخت وخت
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,ونیسئ
@@ -1689,7 +1689,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,پیري صورتحس
 DocType: Shift Type,Every Valid Check-in and Check-out,هر باوري چیک او چیک چیک
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},د کتارونو تر {0}: پورونو د ننوتلو سره د نه تړاو شي کولای {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,لپاره د مالي کال د بودجې تعریف کړي.
-DocType: Shopify Tax Account,ERPNext Account,د ERPNext حساب
+DocType: Shopify Tax Account,ERPV Account,د ERPV حساب
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,تعلیمي کال چمتو کړئ او د پیل او پای نیټه یې وټاکئ.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,{0} بند شوی دی نو دا معامله نشي کولی
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,که چیرې د میاشتني بودیجې راټولول د MR په پایله کې کړنې
@@ -1878,7 +1878,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,د سایټ لیجر پیدا کیږي لکه څنګه چې ثابت شوي شتمنۍ نشي کیدی.
 DocType: Subscription Plan,Fixed rate,ثابت شوی نرخ
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,اعتراف
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,د سرپاڼې ته لاړ شئ او ERPNext په کارولو پيل کوي
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,د سرپاڼې ته لاړ شئ او ERPV په کارولو پيل کوي
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,معاش ورکول
 DocType: Purchase Invoice Item,Manufacturer,جوړوونکی
 DocType: Landed Cost Item,Purchase Receipt Item,رانيول رسيد د قالب
@@ -2064,7 +2064,7 @@ DocType: Employee Checkin,Shift End,د شفټ پای
 DocType: Stock Settings,Default Item Group,Default د قالب ګروپ
 DocType: Job Card Time Log,Time In Mins,وخت په وختونو کې
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,د مرستې معلومات.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,دا عمل به دا حساب د هر بهرني خدمت څخه ERPNext سره ستاسو د بانکي حسابونو سره مدغم کړي. دا نشي ورکول کیدی. ایا تاسو باوري یاست؟
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,دا عمل به دا حساب د هر بهرني خدمت څخه ERPV سره ستاسو د بانکي حسابونو سره مدغم کړي. دا نشي ورکول کیدی. ایا تاسو باوري یاست؟
 apps/erpnext/erpnext/config/buying.py,Supplier database.,عرضه ډیټابیس.
 DocType: Contract Template,Contract Terms and Conditions,د قرارداد شرایط او شرایط
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,تاسو نشي کولی هغه یو بل ریکارډ بیا پیل کړئ چې رد شوی نه وي.
@@ -2203,7 +2203,7 @@ DocType: Purchase Invoice,Rejected Warehouse,رد ګدام
 DocType: GL Entry,Against Voucher,په وړاندې د ګټمنو
 DocType: Item Default,Default Buying Cost Center,Default د خريداري لګښت مرکز
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,نوې پیسې
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",د ERPNext څخه غوره شي، مونږ سپارښتنه کوو چې تاسو ته يو څه وخت ونيسي او دغه مرسته ویډیوګانو ننداره کوي.
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.",د ERPV څخه غوره شي، مونږ سپارښتنه کوو چې تاسو ته يو څه وخت ونيسي او دغه مرسته ویډیوګانو ننداره کوي.
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),د اصلي عرضه کوونکي لپاره (اختیاري)
 DocType: Supplier Quotation Item,Lead Time in days,په ورځو په غاړه وخت
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),هدف ({})
@@ -3936,7 +3936,7 @@ DocType: Quality Meeting,Agenda,اجنډا
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,د ساتنې او مهال ويش تفصیلي
 DocType: Supplier Scorecard,Warn for new Purchase Orders,د نویو پیرودونکو لپاره خبرداری
 DocType: Quality Inspection Reading,Reading 9,لوستلو 9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,خپل د سپورت حساب د ERPNext سره وصل کړئ او د زنګ وهلو تعقیب کړئ
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,خپل د سپورت حساب د ERPV سره وصل کړئ او د زنګ وهلو تعقیب کړئ
 DocType: Supplier,Is Frozen,ده ګنګل
 DocType: Tally Migration,Processed Files,پروسس شوې فایلونه
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,ګروپ غوټه ګودام اجازه نه وي چې د معاملو وټاکئ
@@ -4086,7 +4086,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} د اخستلو د امر په وړاندې د {1}
 DocType: Patient,Patient Demographics,د ناروغۍ ډیموکراسي
 DocType: Task,Actual Start Date (via Time Sheet),واقعي د پیل نیټه د (د وخت پاڼه له لارې)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,دا يو مثال ویب پاڼه د Auto-تولید څخه ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,دا يو مثال ویب پاڼه د Auto-تولید څخه ERPV
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,Ageing Range 1
 DocType: Shopify Settings,Enable Shopify,د دوتنې فعالول
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,ټول وړاندیز شوی مقدار د ټولو ادعا شوي مقدار څخه زیات نه وي
@@ -4406,7 +4406,7 @@ DocType: Work Order Operation,Planned Start Time,پلان د پیل وخت
 DocType: Course,Assessment,ارزونه
 DocType: Payment Entry Reference,Allocated,تخصيص
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,نږدې بیلانس پاڼه او کتاب ګټه یا تاوان.
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext ونه توانېد چې د سم تادیې ننوتنه ومومي
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPV ونه توانېد چې د سم تادیې ننوتنه ومومي
 DocType: Student Applicant,Application Status,کاریال حالت
 DocType: Additional Salary,Salary Component Type,د معاش برخې برخې
 DocType: Sensitivity Test Items,Sensitivity Test Items,د حساسیت ازموینې
@@ -4730,7 +4730,7 @@ DocType: Department,Expense Approver,اخراجاتو Approver
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,د کتارونو تر {0}: پيرودونکو په وړاندې پرمختللی بايد پور وي
 DocType: Quality Meeting,Quality Meeting,د کیفیت ناسته
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,غیر ګروپ ته ګروپ
-DocType: Employee,ERPNext User,د ERPNext کارن
+DocType: Employee,ERPV User,د ERPV کارن
 DocType: Coupon Code,Coupon Description,د کوپن تفصیل
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},batch په قطار الزامی دی {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},batch په قطار الزامی دی {0}
@@ -5170,7 +5170,7 @@ DocType: Loyalty Point Entry,Redeem Against,په وړاندې ژغورل
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,بانکداري او د پیسو ورکړه
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,مهرباني وکړئ د API مصرف کونکي داخل کړئ
 DocType: Issue,Service Level Agreement Fulfilled,د خدمت کچې تړون بشپړ شو
-,Welcome to ERPNext,ته ERPNext ته ښه راغلاست
+,Welcome to ERPV,ته ERPV ته ښه راغلاست
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,ته د داوطلبۍ سوق
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,د بریښنالیک یاددښتونکي به ټولو ګوندونو ته د بریښناليک اړیکو سره لیږل کیږي
 DocType: Project,Twice Daily,دوه ويشتمه ورځ
@@ -5635,7 +5635,7 @@ DocType: Account,Bank,بانک د
 DocType: Job Card,Job Started,دنده پیل شوه
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,هوايي شرکت
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,Issue مواد
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,نښلول د ERPNext سره وپلټئ
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,نښلول د ERPV سره وپلټئ
 DocType: Production Plan,For Warehouse,د ګدام
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,د سپارلو یادښتونه {0} تازه شوي
 DocType: Employee,Offer Date,وړاندیز نېټه
@@ -5760,7 +5760,7 @@ DocType: Leave Control Panel,Carry Forward,مخ په وړاندې ترسره ک�
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,د موجوده معاملو لګښت مرکز بدل نه شي چې د پنډو
 DocType: Budget,Applicable on booking actual expenses,د حقیقي لګښتونو د بکولو په اړه د تطبیق وړ دي
 DocType: Department,Days for which Holidays are blocked for this department.,ورځو لپاره چې د رخصتۍ لپاره د دې ادارې تړل شوي دي.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext انټرنیټونه
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV انټرنیټونه
 DocType: Crop Cycle,Detected Disease,ناروغی معلوم شوی
 ,Produced,تولید
 DocType: Issue,Raised By (Email),راپورته By (Email)
@@ -6536,7 +6536,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,اټکل شوي را رسید ټایمز محاسبه کړئ
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,ګڼون: {0} يوازې دحمل معاملې له لارې تازه شي
 DocType: Student Group Creation Tool,Get Courses,کورسونه ترلاسه کړئ
-DocType: Tally Migration,ERPNext Company,د ERPNext شرکت
+DocType: Tally Migration,ERPV Company,د ERPV شرکت
 DocType: Shopify Settings,Webhooks,ویبوکس
 DocType: Bank Account,Party,ګوند
 DocType: Healthcare Settings,Patient Name,د ناروغ نوم
@@ -6712,7 +6712,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,اجازه صفر ار�
 DocType: Bank Guarantee,Receiving,ترلاسه کول
 DocType: Training Event Employee,Invited,بلنه
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,Setup ليدونکی حسابونو.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,خپل بانکي حسابونه له ERPNext سره وصل کړئ
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,خپل بانکي حسابونه له ERPV سره وصل کړئ
 DocType: Employee,Employment Type,وظيفي نوع
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,پروژه د یو ټیمپلیټ څخه جوړ کړئ.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,ثابته شتمني

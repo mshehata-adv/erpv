@@ -1,6 +1,6 @@
 [
  {
-  "email": "test_demo@erpnext.com",
+  "email": "test_demo@erpv.advintic.com",
   "first_name": "Test",
   "last_name": "User"
  },
@@ -105,7 +105,7 @@
   "last_name": "Zor El"
  },
  {
-  "email": "demo@erpnext.com",
+  "email": "demo@erpv.advintic.com",
   "first_name": "Demo",
   "last_name": "User"
  }

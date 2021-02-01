@@ -191,7 +191,7 @@
    "default": "0",
    "fieldname": "update_price_in_erpnext_price_list",
    "fieldtype": "Check",
-   "label": "Update Price from Shopify To ERPNext Price List"
+   "label": "Update Price from Shopify To ERPV Price List"
   },
   {
    "fieldname": "column_break_26",
@@ -248,7 +248,7 @@
   {
    "fieldname": "html_16",
    "fieldtype": "HTML",
-   "options": "Map Shopify Taxes / Shipping Charges to ERPNext Account"
+   "options": "Map Shopify Taxes / Shipping Charges to ERPV Account"
   },
   {
    "fieldname": "taxes",
@@ -259,8 +259,8 @@
  ],
  "issingle": 1,
  "modified": "2020-05-28 12:32:11.384757",
- "modified_by": "umair@erpnext.com",
- "module": "ERPNext Integrations",
+ "modified_by": "umair@erpv.advintic.com",
+ "module": "ERPV Integrations",
  "name": "Shopify Settings",
  "owner": "Administrator",
  "permissions": [

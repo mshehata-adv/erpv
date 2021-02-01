@@ -995,7 +995,7 @@
   },
   {
    "default": "0",
-   "description": "Publish Item to hub.erpnext.com",
+   "description": "Publish Item to hub.erpv.advintic.com",
    "fieldname": "publish_in_hub",
    "fieldtype": "Check",
    "label": "Publish in Hub"

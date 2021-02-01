@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,Калькуляція і білінг
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},"Авансова валюта рахунку повинна бути такою ж, як валюта компанії {0}"
 DocType: QuickBooks Migrator,Token Endpoint,Кінцева точка Token
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,Рахунок {0}: Батьки рахунку {1} не може бути книга
-DocType: Item,Publish Item to hub.erpnext.com,Опублікувати пункт в hub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,Опублікувати пункт в hub.erpv.advintic.com
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,Не вдається знайти активний період залишення
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,оцінка
 DocType: Item,Default Unit of Measure,Одиниця виміру за замовчуванням
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,Деталі ваги Дет�
 DocType: Asset Maintenance Log,Periodicity,Періодичність
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,Треба зазначити бюджетний період {0}
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,Чистий прибуток / збиток
-DocType: Employee Group Table,ERPNext User ID,ERPNext ID користувача
+DocType: Employee Group Table,ERPV User ID,ERPV ID користувача
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,Мінімальна відстань між рядами рослин для оптимального зростання
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,"Будь-ласка, виберіть пацієнта, щоб отримати встановлену процедуру"
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,Захист
@@ -485,7 +485,7 @@ DocType: Supplier Scorecard,Criteria Setup,Налаштування критер
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,Для складу потрібно перед проведенням
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,Надійшло На
 DocType: Codification Table,Medical Code,Медичний кодекс
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,Підключіть Amazon до ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,Підключіть Amazon до ERPV
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,Зв&#39;яжіться з нами
 DocType: Delivery Note Item,Against Sales Invoice Item,По позиціях вхідного рахунку-фактури
 DocType: Agriculture Analysis Criteria,Linked Doctype,Зв&#39;язаний Doctype
@@ -742,7 +742,7 @@ DocType: POS Closing Voucher,Difference,Різниця
 DocType: Delivery Settings,Delay between Delivery Stops,Затримка між зупинками доставки
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},Серійний номер {0} не належить накладній {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Здається, проблема з конфігурацією GoCardless сервера. Не хвилюйтеся, у випадку невдачі сума повернеться на ваш рахунок."
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,Додати товари
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Параметр сертифікату якості для номенклатурної позиції
 DocType: Leave Application,Leave Approver Name,Ім'я погоджувача відпустки
@@ -809,7 +809,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,"Будь ласка, введіть назву компанії в першу чергу"
 DocType: Travel Itinerary,Non-Vegetarian,Не-вегетаріанець
 DocType: Purchase Invoice,Supplier Name,Назва постачальника
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,Прочитайте керівництво ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,Прочитайте керівництво ERPV
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Показати сторінки всіх членів департаменту в календарі
 DocType: Purchase Invoice,01-Sales Return,01-продаж повернення
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,Кількість у рядку BOM
@@ -1468,7 +1468,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,Витрати утримання офісу
 ,BOM Explorer,BOM Explorer
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,Йти до
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Оновити ціну з Shopify на ERPNext Прайс-лист
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,Оновити ціну з Shopify на ERPV Прайс-лист
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,Налаштування облікового запису електронної пошти
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,"Будь ласка, введіть перший пункт"
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,Аналіз потреб
@@ -1596,7 +1596,7 @@ DocType: Fertilizer,Fertilizer Contents,Зміст добрив
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,Дослідження і розвиток
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,Сума до оплати
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,На основі умов оплати
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,Налаштування ERPNext
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,Налаштування ERPV
 DocType: Company,Registration Details,Реєстраційні дані
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,Не вдалося встановити угоду про рівень обслуговування {0}.
 DocType: Timesheet,Total Billed Amount,Загальна сума Оголошений
@@ -1636,7 +1636,7 @@ DocType: Leave Type,Encashment Threshold Days,Порогові дні інкас
 ,Final Assessment Grades,Остаточні оцінки
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,"Назва вашої компанії, для якої ви налаштовуєте цю систему."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Включити вихідні в загальну кількість робочих днів
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,Налаштуйте свій інститут в ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,Налаштуйте свій інститут в ERPV
 DocType: Agriculture Analysis Criteria,Plant Analysis,Аналіз рослин
 DocType: Task,Timeline,Хронологія
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,Тримати
@@ -1716,7 +1716,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,Передоплат�
 DocType: Shift Type,Every Valid Check-in and Check-out,Кожен дійсний заїзд та виїзд
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},Ряд {0}: Кредитна запис не може бути пов&#39;язаний з {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,Визначити бюджет на бюджетний період
-DocType: Shopify Tax Account,ERPNext Account,ERPNext Account
+DocType: Shopify Tax Account,ERPV Account,ERPV Account
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,Укажіть навчальний рік та встановіть дату початку та закінчення.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,"{0} заблоковано, тому цю транзакцію неможливо продовжити"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,"Дія, якщо накопичений місячний бюджет перевищено на ЗМ"
@@ -1908,7 +1908,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,"Не може бути елементом основних засобів, оскільки створюється фондова книга."
 DocType: Subscription Plan,Fixed rate,Фіксована ставка
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,Приймати
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,Перейти до стільниці і почати користування ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,Перейти до стільниці і почати користування ERPV
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,Заплатити залишилося
 DocType: Purchase Invoice Item,Manufacturer,Виробник
 DocType: Landed Cost Item,Purchase Receipt Item,Позиція прихідної накладної
@@ -2098,7 +2098,7 @@ DocType: Employee Checkin,Shift End,Зсув кінця
 DocType: Stock Settings,Default Item Group,Група за замовчуванням
 DocType: Job Card Time Log,Time In Mins,Час у мін
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,Надайте інформацію.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,"Ця дія від’єднає цей рахунок від будь-якої зовнішньої служби, що інтегрує ERPNext з вашими банківськими рахунками. Це неможливо відмінити. Ви впевнені?"
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,"Ця дія від’єднає цей рахунок від будь-якої зовнішньої служби, що інтегрує ERPV з вашими банківськими рахунками. Це неможливо відмінити. Ви впевнені?"
 apps/erpnext/erpnext/config/buying.py,Supplier database.,База даних постачальника
 DocType: Contract Template,Contract Terms and Conditions,Умови та умови договору
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,"Ви не можете перезапустити підписку, яку не скасовано."
@@ -2239,7 +2239,7 @@ DocType: Purchase Invoice,Rejected Warehouse,Склад для відхилен�
 DocType: GL Entry,Against Voucher,Згідно документу
 DocType: Item Default,Default Buying Cost Center,Центр витрат закупівлі за замовчуванням
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,Новий платіж
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Щоб мати змогу використовувати ERPNext на повну, ми радимо вам приділити увагу цим довідковим відео."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","Щоб мати змогу використовувати ERPV на повну, ми радимо вам приділити увагу цим довідковим відео."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),Для постачальника за замовчуванням (необов&#39;язково)
 DocType: Supplier Quotation Item,Lead Time in days,Час на поставку в днях
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),Ціль ({})
@@ -4000,7 +4000,7 @@ DocType: Quality Meeting,Agenda,Порядок денний
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,Деталі Запланованого обслуговування
 DocType: Supplier Scorecard,Warn for new Purchase Orders,Попереджайте про нові замовлення на купівлю
 DocType: Quality Inspection Reading,Reading 9,Читання 9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,Підключіть свій обліковий запис Exotel до журналу ERPNext та відстежте журнали викликів
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,Підключіть свій обліковий запис Exotel до журналу ERPV та відстежте журнали викликів
 DocType: Supplier,Is Frozen,Заблоковано
 DocType: Tally Migration,Processed Files,Оброблені файли
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,"склад групи вузлів не допускається, щоб вибрати для угод"
@@ -4153,7 +4153,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} за Замовленням на придбання {1}
 DocType: Patient,Patient Demographics,Демографічна характеристика пацієнта
 DocType: Task,Actual Start Date (via Time Sheet),Фактична дата початку (за допомогою Time Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,Цей зразок сайту згенерований автоматично з ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,Цей зразок сайту згенерований автоматично з ERPV
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,Старіння Діапазон 1
 DocType: Shopify Settings,Enable Shopify,Увімкнути Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,Загальна авансова сума не може перевищувати загальну заявлену суму
@@ -4479,7 +4479,7 @@ DocType: Work Order Operation,Planned Start Time,Плановані Час
 DocType: Course,Assessment,оцінка
 DocType: Payment Entry Reference,Allocated,Розподілено
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,Закрити Баланс і книга Прибуток або збиток.
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext не зміг знайти жодного відповідного платежу
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPV не зміг знайти жодного відповідного платежу
 DocType: Student Applicant,Application Status,статус заявки
 DocType: Additional Salary,Salary Component Type,Зарплата компонентного типу
 DocType: Sensitivity Test Items,Sensitivity Test Items,Тестування чутливості
@@ -4808,7 +4808,7 @@ DocType: Department,Expense Approver,Витрати затверджує
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,Ряд {0}: Аванси по клієнту повинні бути у кредиті
 DocType: Quality Meeting,Quality Meeting,Якісна зустріч
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,Перетворити елемент у групу
-DocType: Employee,ERPNext User,ERPNext Користувач
+DocType: Employee,ERPV User,ERPV Користувач
 DocType: Coupon Code,Coupon Description,Опис купона
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},Пакетний є обов&#39;язковим в рядку {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},Пакетний є обов&#39;язковим в рядку {0}
@@ -5251,7 +5251,7 @@ DocType: Loyalty Point Entry,Redeem Against,Викупити проти
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,Банкінг та платежі
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,"Будь ласка, введіть споживчий ключ API"
 DocType: Issue,Service Level Agreement Fulfilled,Договір про рівень обслуговування виконаний
-,Welcome to ERPNext,Вітаємо у ERPNext
+,Welcome to ERPV,Вітаємо у ERPV
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,Lead у Пропозицію
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,Нагадування електронною поштою буде надіслано всім сторонам за допомогою електронних адрес
 DocType: Project,Twice Daily,Двічі на день
@@ -5726,7 +5726,7 @@ DocType: Account,Bank,Банк
 DocType: Job Card,Job Started,Робота розпочата
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,Авіакомпанія
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,Матеріал Випуск
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,З&#39;єднати Shopify з ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,З&#39;єднати Shopify з ERPV
 DocType: Production Plan,For Warehouse,Для складу
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,Примітки щодо доставки {0} оновлено
 DocType: Employee,Offer Date,Дата пропозиції
@@ -5851,7 +5851,7 @@ DocType: Leave Control Panel,Carry Forward,Переносити
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,"Центр витрат з існуючими операціями, не може бути перетворений у книгу"
 DocType: Budget,Applicable on booking actual expenses,Застосовується при бронюванні фактичних витрат
 DocType: Department,Days for which Holidays are blocked for this department.,"Дні, для яких вихідні заблоковані для цього відділу."
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrations
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV Integrations
 DocType: Crop Cycle,Detected Disease,Виявлена хвороба
 ,Produced,Вироблений
 DocType: Issue,Raised By (Email),Raised By (E-mail)
@@ -6638,7 +6638,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,Обчислити розрахунковий час прибуття
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,Рахунок: {0} може оновитися тільки операціями з інвентарем
 DocType: Student Group Creation Tool,Get Courses,отримати курси
-DocType: Tally Migration,ERPNext Company,Компанія ERPNext
+DocType: Tally Migration,ERPV Company,Компанія ERPV
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,Контрагент
 DocType: Healthcare Settings,Patient Name,Ім&#39;я пацієнта
@@ -6817,7 +6817,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,Дозволити ну
 DocType: Bank Guarantee,Receiving,Прийом
 DocType: Training Event Employee,Invited,запрошений
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,Налаштування шлюзу рахунку.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,Підключіть свої банківські рахунки до ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,Підключіть свої банківські рахунки до ERPV
 DocType: Employee,Employment Type,Вид зайнятості
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,Складіть проект із шаблону.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,Основні активи

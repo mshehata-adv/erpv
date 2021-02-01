@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,Sąnaudų ir atsiskaitymas
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},Išankstinio sąskaitos valiuta turi būti tokia pati kaip ir įmonės valiuta {0}
 DocType: QuickBooks Migrator,Token Endpoint,Tokeno galutinis taškas
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,Sąskaita {0}: Tėvų sąskaitą {1} negali būti knygos
-DocType: Item,Publish Item to hub.erpnext.com,Paskelbti Prekę hub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,Paskelbti Prekę hub.erpv.advintic.com
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,Nepavyko rasti aktyvios palikimo laikotarpio
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,vertinimas
 DocType: Item,Default Unit of Measure,Numatytasis matavimo vienetas
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,Prekės svarumo duomenys
 DocType: Asset Maintenance Log,Periodicity,periodiškumas
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,Finansiniai metai {0} reikalingas
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,Grynasis pelnas / nuostolis
-DocType: Employee Group Table,ERPNext User ID,„ERPNext“ vartotojo ID
+DocType: Employee Group Table,ERPV User ID,„ERPV“ vartotojo ID
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,Mažiausias atstumas tarp augalų eilučių siekiant optimalaus augimo
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,"Pasirinkite „Patient“, kad gautumėte paskirtą procedūrą"
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,apsauga
@@ -485,7 +485,7 @@ DocType: Supplier Scorecard,Criteria Setup,Kriterijų nustatymas
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,Sandėliavimo reikalingas prieš Pateikti
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,gautas
 DocType: Codification Table,Medical Code,Medicinos kodeksas
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,Prijunkite &quot;Amazon&quot; su ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,Prijunkite &quot;Amazon&quot; su ERPV
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,Susisiekite su mumis
 DocType: Delivery Note Item,Against Sales Invoice Item,Prieš Pardavimų sąskaitos punktas
 DocType: Agriculture Analysis Criteria,Linked Doctype,Susietas &quot;Doctype&quot;
@@ -742,7 +742,7 @@ DocType: POS Closing Voucher,Difference,Skirtumas
 DocType: Delivery Settings,Delay between Delivery Stops,Vėlavimas tarp pristatymo stotelių
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},Serijos Nr {0} nepriklauso važtaraštyje {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Atrodo, kad yra problema dėl serverio &quot;GoCardless&quot; konfigūracijos. Nesijaudinkite, nesėkmės atveju suma bus grąžinta į jūsų sąskaitą."
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext demo
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,Pridėti prekę
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Prekė kokybės inspekcija Parametras
 DocType: Leave Application,Leave Approver Name,Palikite jį patvirtinusio pavadinimas
@@ -809,7 +809,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,Prašome įvesti įmonės pavadinimą pirmoji
 DocType: Travel Itinerary,Non-Vegetarian,Ne vegetaras
 DocType: Purchase Invoice,Supplier Name,tiekėjas Vardas
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,Skaityti ERPNext vadovas
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,Skaityti ERPV vadovas
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Rodyti visų departamento narių lapelius kalendoriuje
 DocType: Purchase Invoice,01-Sales Return,01-Pardavimų grąža
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,Kiekis už BOM eilutę
@@ -1469,7 +1469,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,Biuro išlaikymo sąnaudos
 ,BOM Explorer,„BOM Explorer“
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,Eiti į
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Atnaujinkite kainą iš &quot;Shopify&quot; į ERPNext kainyną
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,Atnaujinkite kainą iš &quot;Shopify&quot; į ERPV kainyną
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,Įsteigti pašto dėžutę
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,Prašome įvesti Elementą pirmas
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,Poreikių analizė
@@ -1597,7 +1597,7 @@ DocType: Fertilizer,Fertilizer Contents,Trąšų turinys
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,Tyrimai ir plėtra
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,Suma Bill
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,Pagal mokėjimo sąlygas
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,„ERPNext Settings“
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,„ERPV Settings“
 DocType: Company,Registration Details,Registracija detalės
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,Nepavyko nustatyti paslaugų lygio sutarties {0}.
 DocType: Timesheet,Total Billed Amount,Iš viso mokesčio suma
@@ -1637,7 +1637,7 @@ DocType: Leave Type,Encashment Threshold Days,Inkasavimo slenkstinės dienos
 ,Final Assessment Grades,Galutiniai vertinimo balai
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,"Jūsų įmonės pavadinimas, dėl kurių jūs nustatote šią sistemą."
 DocType: HR Settings,Include holidays in Total no. of Working Days,Įtraukti atostogas iš viso ne. darbo dienų
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,Nustatykite savo institutą ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,Nustatykite savo institutą ERPV
 DocType: Agriculture Analysis Criteria,Plant Analysis,Augalų analizė
 DocType: Task,Timeline,Laiko juosta
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,laikyti
@@ -1717,7 +1717,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,Pirkimo faktūros Adv
 DocType: Shift Type,Every Valid Check-in and Check-out,Kiekvienas galiojantis įsiregistravimas ir išsiregistravimas
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},Eilutės {0}: Kredito įrašas negali būti susieta su {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,Nustatykite biudžetą per finansinius metus.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext paskyra
+DocType: Shopify Tax Account,ERPV Account,ERPV paskyra
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,Nurodykite mokslo metus ir nustatykite pradžios ir pabaigos datą.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,"{0} blokuojamas, todėl šis sandoris negali būti tęsiamas"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,"Veiksmai, jei sukauptas mėnesinis biudžetas viršytas MR"
@@ -1909,7 +1909,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,"Negali būti elementas ilgalaikio turto, kaip sukuriamas atsargų vadovas."
 DocType: Subscription Plan,Fixed rate,Fiksuota norma
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,Pripažinti
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,Eiti į Desktop ir pradėti naudoti ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,Eiti į Desktop ir pradėti naudoti ERPV
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,Palikti likusį
 DocType: Purchase Invoice Item,Manufacturer,gamintojas
 DocType: Landed Cost Item,Purchase Receipt Item,Pirkimo kvito punktas
@@ -2100,7 +2100,7 @@ DocType: Employee Checkin,Shift End,„Shift“ pabaiga
 DocType: Stock Settings,Default Item Group,Numatytasis Elementas Grupė
 DocType: Job Card Time Log,Time In Mins,Laikas min
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,Informacija apie dotaciją.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,"Šis veiksmas atjungs šią sąskaitą nuo bet kokių išorinių paslaugų, integruojančių „ERPNext“ su jūsų banko sąskaitomis. Tai negali būti anuliuota. Ar tu tikras?"
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,"Šis veiksmas atjungs šią sąskaitą nuo bet kokių išorinių paslaugų, integruojančių „ERPV“ su jūsų banko sąskaitomis. Tai negali būti anuliuota. Ar tu tikras?"
 apps/erpnext/erpnext/config/buying.py,Supplier database.,Tiekėjas duomenų bazę.
 DocType: Contract Template,Contract Terms and Conditions,Sutarties sąlygos ir sąlygos
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,"Jūs negalite iš naujo paleisti Prenumeratos, kuri nėra atšaukta."
@@ -2240,7 +2240,7 @@ DocType: Purchase Invoice,Rejected Warehouse,atmesta sandėlis
 DocType: GL Entry,Against Voucher,prieš kupono
 DocType: Item Default,Default Buying Cost Center,Numatytasis Ieško kaina centras
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,Naujas mokėjimas
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Norėdami gauti geriausią iš ERPNext, mes rekomenduojame, kad jūs šiek tiek laiko ir žiūrėti šiuos pagalbos video."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","Norėdami gauti geriausią iš ERPV, mes rekomenduojame, kad jūs šiek tiek laiko ir žiūrėti šiuos pagalbos video."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),Numatytam tiekėjui (neprivaloma)
 DocType: Supplier Quotation Item,Lead Time in days,Švinas Laikas dienų
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),Tikslas ({})
@@ -4001,7 +4001,7 @@ DocType: Quality Meeting,Agenda,Darbotvarkė
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,Priežiūros planas Išsamiau
 DocType: Supplier Scorecard,Warn for new Purchase Orders,Įspėti apie naujus pirkimo užsakymus
 DocType: Quality Inspection Reading,Reading 9,Skaitymas 9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,Prijunkite savo „Exotel“ paskyrą prie „ERPNext“ ir stebėkite skambučių žurnalus
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,Prijunkite savo „Exotel“ paskyrą prie „ERPV“ ir stebėkite skambučių žurnalus
 DocType: Supplier,Is Frozen,Ar Sušaldyti
 DocType: Tally Migration,Processed Files,Apdoroti failai
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,Grupė mazgas sandėlis neleidžiama pasirinkti sandorius
@@ -4153,7 +4153,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} prieš Užsakymo {1}
 DocType: Patient,Patient Demographics,Paciento demografija
 DocType: Task,Actual Start Date (via Time Sheet),Tikrasis pradžios data (per Time lapas)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,"Tai yra pavyzdys, svetainė Automatiškai sugeneruota iš ERPNext"
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,"Tai yra pavyzdys, svetainė Automatiškai sugeneruota iš ERPV"
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,Senėjimas klasės 1
 DocType: Shopify Settings,Enable Shopify,Įjunkite &quot;Shopify&quot;
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,Bendra išankstinė suma negali būti didesnė už visą reikalaujamą sumą
@@ -4480,7 +4480,7 @@ DocType: Work Order Operation,Planned Start Time,Planuojamas Pradžios laikas
 DocType: Course,Assessment,įvertinimas
 DocType: Payment Entry Reference,Allocated,Paskirti
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,Uždaryti Balansas ir knyga pelnas arba nuostolis.
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,„ERPNext“ nerado jokio atitinkančio mokėjimo įrašo
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,„ERPV“ nerado jokio atitinkančio mokėjimo įrašo
 DocType: Student Applicant,Application Status,paraiškos būseną
 DocType: Additional Salary,Salary Component Type,Atlyginimo komponento tipas
 DocType: Sensitivity Test Items,Sensitivity Test Items,Jautrumo testo elementai
@@ -4809,7 +4809,7 @@ DocType: Department,Expense Approver,Kompensuojamos Tvirtintojas
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,Eilutės {0}: Išankstinis prieš užsakovui turi būti kredito
 DocType: Quality Meeting,Quality Meeting,Kokybės susitikimas
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,Ne grupė į grupę
-DocType: Employee,ERPNext User,ERPNext vartotojas
+DocType: Employee,ERPV User,ERPV vartotojas
 DocType: Coupon Code,Coupon Description,Kupono aprašymas
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},Partijos yra imperatyvaus eilės {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},Partijos yra imperatyvaus eilės {0}
@@ -5252,7 +5252,7 @@ DocType: Loyalty Point Entry,Redeem Against,Išpirkti prieš
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,Bankininkystė ir mokėjimai
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,Įveskite API vartotojo raktą
 DocType: Issue,Service Level Agreement Fulfilled,Įvykdyta paslaugų lygio sutartis
-,Welcome to ERPNext,Sveiki atvykę į ERPNext
+,Welcome to ERPV,Sveiki atvykę į ERPV
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,Švinas su citavimo
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,Priminimai el. Paštu bus išsiųsti visoms šalims elektroniniu paštu
 DocType: Project,Twice Daily,Du kartus per parą
@@ -5725,7 +5725,7 @@ DocType: Account,Bank,Bankas
 DocType: Job Card,Job Started,Darbas pradėtas
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,Aviakompanija
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,klausimas Medžiaga
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,Susisiekite Shopify su ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,Susisiekite Shopify su ERPV
 DocType: Production Plan,For Warehouse,Sandėliavimo
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,Pristatymo pastabos {0} atnaujintos
 DocType: Employee,Offer Date,Pasiūlymo data
@@ -5849,7 +5849,7 @@ DocType: Leave Control Panel,Carry Forward,Tęsti
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,Kaina centras su esamais sandoriai negali būti konvertuojamos į sąskaitų knygos
 DocType: Budget,Applicable on booking actual expenses,Taikoma užsakant faktines išlaidas
 DocType: Department,Days for which Holidays are blocked for this department.,"Dienų, kuriomis Šventės blokuojami šiame skyriuje."
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext integracija
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV integracija
 DocType: Crop Cycle,Detected Disease,Aptikta liga
 ,Produced,pagamintas
 DocType: Issue,Raised By (Email),Iškeltas (el)
@@ -6636,7 +6636,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,Apskaičiuokite numatytą atvykimo laiką
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,Sąskaita: {0} gali būti atnaujintas tik per vertybinių popierių sandorių
 DocType: Student Group Creation Tool,Get Courses,Gauk kursai
-DocType: Tally Migration,ERPNext Company,„ERPNext Company“
+DocType: Tally Migration,ERPV Company,„ERPV Company“
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,šalis
 DocType: Healthcare Settings,Patient Name,Paciento vardas
@@ -6815,7 +6815,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,Leiskite Zero Vertinimo
 DocType: Bank Guarantee,Receiving,Priėmimas
 DocType: Training Event Employee,Invited,kviečiami
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,Parametrų Gateway sąskaitos.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,Prijunkite savo banko sąskaitas prie „ERPNext“
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,Prijunkite savo banko sąskaitas prie „ERPV“
 DocType: Employee,Employment Type,Užimtumas tipas
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,Padarykite projektą iš šablono.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,Ilgalaikis turtas

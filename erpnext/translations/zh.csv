@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,成本核算和计费
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},预付科目货币应与公司货币{0}相同
 DocType: QuickBooks Migrator,Token Endpoint,令牌端点
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,科目{0}的上级科目{1}不能是分类账
-DocType: Item,Publish Item to hub.erpnext.com,发布项目到hub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,发布项目到hub.erpv.advintic.com
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,找不到有效的休假期间
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,评估
 DocType: Item,Default Unit of Measure,默认计量单位
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,物料重量
 DocType: Asset Maintenance Log,Periodicity,周期性
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,会计年度{0}是必需的
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,净利润/亏损
-DocType: Employee Group Table,ERPNext User ID,ERPNext用户ID
+DocType: Employee Group Table,ERPV User ID,ERPNext用户ID
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,植株之间的最小距离，以获得最佳生长
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,请选择患者以获得规定的程序
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,Defense
@@ -484,7 +484,7 @@ DocType: Supplier Scorecard,Criteria Setup,条件设置
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,提交前必须选择仓库
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,收到的
 DocType: Codification Table,Medical Code,医疗法
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,将Amazon与ERPNext连接起来
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,将Amazon与ERPNext连接起来
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,联系我们
 DocType: Delivery Note Item,Against Sales Invoice Item,针对的销售费用清单项
 DocType: Agriculture Analysis Criteria,Linked Doctype,链接的文档类型
@@ -741,7 +741,7 @@ DocType: POS Closing Voucher,Difference,区别
 DocType: Delivery Settings,Delay between Delivery Stops,交货停止之间的延迟
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},序列号{0}不属于销售出货单{1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",服务器的GoCardless配置似乎存在问题。别担心，如果失败，这笔款项将退还给您的科目。
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext演示
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPNext演示
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,添加项目
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,物料质量检验参数
 DocType: Leave Application,Leave Approver Name,休假审批人姓名
@@ -808,7 +808,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,请先输入公司名称
 DocType: Travel Itinerary,Non-Vegetarian,非素食主义者
 DocType: Purchase Invoice,Supplier Name,供应商名称
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,阅读ERPNext手册
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,阅读ERPNext手册
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,在日历中显示所有部门成员的休假
 DocType: Purchase Invoice,01-Sales Return,01-销售退货
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,每个BOM行数量
@@ -1479,7 +1479,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,办公维护费用
 ,BOM Explorer,BOM Explorer
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,转到
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,将Shopify更新到ERPNext价格清单
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,将Shopify更新到ERPNext价格清单
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,设置电子邮件科目
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,请先输入物料
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,需求分析
@@ -1607,7 +1607,7 @@ DocType: Fertilizer,Fertilizer Contents,肥料含量
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,研究与发展
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,待开费用清单金额
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,根据付款条款
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,ERP下载设置
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,ERP下载设置
 DocType: Company,Registration Details,注册详细信息
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,无法设置服务水平协议{0}。
 DocType: Timesheet,Total Billed Amount,总可开单金额
@@ -1647,7 +1647,7 @@ DocType: Leave Type,Encashment Threshold Days,最大允许折现天数
 ,Final Assessment Grades,最终评估等级
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,贵公司的名称
 DocType: HR Settings,Include holidays in Total no. of Working Days,将假期包含在工作日内
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,在ERPNext中设置您的研究所
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,在ERPNext中设置您的研究所
 DocType: Agriculture Analysis Criteria,Plant Analysis,植物分析
 DocType: Task,Timeline,时间线
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,暂缓处理
@@ -1727,7 +1727,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,采购费用清单预
 DocType: Shift Type,Every Valid Check-in and Check-out,每次有效入住和退房
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},行{0}：信用记录无法被链接的{1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,定义预算财务年度。
-DocType: Shopify Tax Account,ERPNext Account,ERPNext科目
+DocType: Shopify Tax Account,ERPV Account,ERPNext科目
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,提供学年并设置开始和结束日期。
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,{0}被阻止，所以此事务无法继续
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,如果累计每月预算超过MR，则采取行动
@@ -1918,7 +1918,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,不能成为股票分类账创建的固定资产项目。
 DocType: Subscription Plan,Fixed rate,固定利率
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,准入
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,转到桌面和开始使用ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,转到桌面和开始使用ERPNext
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,支付剩余
 DocType: Purchase Invoice Item,Manufacturer,制造商
 DocType: Landed Cost Item,Purchase Receipt Item,采购入库项
@@ -2108,7 +2108,7 @@ DocType: Employee Checkin,Shift End,转移结束
 DocType: Stock Settings,Default Item Group,默认物料群组
 DocType: Job Card Time Log,Time In Mins,分钟时间
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,授予信息。
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,此操作将取消此帐户与将ERPNext与您的银行帐户集成的任何外部服务的链接。它无法撤消。你确定吗 ？
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,此操作将取消此帐户与将ERPNext与您的银行帐户集成的任何外部服务的链接。它无法撤消。你确定吗 ？
 apps/erpnext/erpnext/config/buying.py,Supplier database.,供应商数据库。
 DocType: Contract Template,Contract Terms and Conditions,合同条款和条件
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,您无法重新启动未取消的订阅。
@@ -2249,7 +2249,7 @@ DocType: Purchase Invoice,Rejected Warehouse,拒收仓库
 DocType: GL Entry,Against Voucher,针对的凭证
 DocType: Item Default,Default Buying Cost Center,默认采购成本中心
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,新付款
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",为了用好ERPNext，我们建议您花一些时间来观看这些帮助视频。
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.",为了用好ERPNext，我们建议您花一些时间来观看这些帮助视频。
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),对于默认供应商（可选）
 DocType: Supplier Quotation Item,Lead Time in days,交期（天）
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),目标（{}）
@@ -4009,7 +4009,7 @@ DocType: Quality Meeting,Agenda,议程
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,维护计划细节
 DocType: Supplier Scorecard,Warn for new Purchase Orders,警告新的采购订单
 DocType: Quality Inspection Reading,Reading 9,检验结果9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,将您的Exotel帐户连接到ERPNext并跟踪通话记录
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,将您的Exotel帐户连接到ERPNext并跟踪通话记录
 DocType: Supplier,Is Frozen,被冻结
 DocType: Tally Migration,Processed Files,已处理的文件
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,组节点仓库不允许选择用于交易
@@ -4160,7 +4160,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0}不允许采购订单{1}
 DocType: Patient,Patient Demographics,患者人口统计学
 DocType: Task,Actual Start Date (via Time Sheet),实际开始日期（通过工时单）
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,这是一个从ERPNext自动生成的示例网站
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,这是一个从ERPNext自动生成的示例网站
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,账龄范围1
 DocType: Shopify Settings,Enable Shopify,启用Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,总预付金额不能超过申报总额
@@ -4499,7 +4499,7 @@ DocType: Work Order Operation,Planned Start Time,计划开始时间
 DocType: Course,Assessment,评估
 DocType: Payment Entry Reference,Allocated,已分配
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,关闭资产负债表，记帐到损益表。
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext找不到任何匹配的付款条目
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPNext找不到任何匹配的付款条目
 DocType: Student Applicant,Application Status,应用现状
 DocType: Additional Salary,Salary Component Type,薪资组件类型
 DocType: Sensitivity Test Items,Sensitivity Test Items,灵敏度测试项目
@@ -4828,7 +4828,7 @@ DocType: Department,Expense Approver,费用审批人
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,行{0}：预收客户款项须记在贷方
 DocType: Quality Meeting,Quality Meeting,质量会议
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,非群组转为群组
-DocType: Employee,ERPNext User,ERPNext用户
+DocType: Employee,ERPV User,ERPNext用户
 DocType: Coupon Code,Coupon Description,优惠券说明
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},在{0}行中必须使用批次号
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},在{0}行中必须使用批处理
@@ -5269,7 +5269,7 @@ DocType: Loyalty Point Entry,Redeem Against,兑换
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,银行和支付
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,请输入API使用者密钥
 DocType: Issue,Service Level Agreement Fulfilled,达成服务水平协议
-,Welcome to ERPNext,欢迎使用ERPNext
+,Welcome to ERPV,欢迎使用ERPNext
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,从线索到报价
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,电子邮件提醒将通过电子邮件联系方式发送给各方
 DocType: Project,Twice Daily,每天两次
@@ -5743,7 +5743,7 @@ DocType: Account,Bank,银行
 DocType: Job Card,Job Started,工作开始了
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,航空公司
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,发料
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,将Shopify与ERPNext连接
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,将Shopify与ERPNext连接
 DocType: Production Plan,For Warehouse,仓库
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,已更新交货单{0}
 DocType: Employee,Offer Date,录用日期
@@ -5868,7 +5868,7 @@ DocType: Leave Control Panel,Carry Forward,顺延
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,有交易的成本中心不能转化为总账
 DocType: Budget,Applicable on booking actual expenses,适用于预订实际费用
 DocType: Department,Days for which Holidays are blocked for this department.,此部门的禁离日
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext集成
+DocType: Amazon MWS Settings,ERPV Integrations,ERPNext集成
 DocType: Crop Cycle,Detected Disease,检测到的疾病
 ,Produced,生产
 DocType: Issue,Raised By (Email),提出（电子邮件）
@@ -6655,7 +6655,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,计算预计到达时间
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,科目{0}只能通过库存处理更新
 DocType: Student Group Creation Tool,Get Courses,获取课程
-DocType: Tally Migration,ERPNext Company,ERPNext公司
+DocType: Tally Migration,ERPV Company,ERPNext公司
 DocType: Shopify Settings,Webhooks,网络挂接
 DocType: Bank Account,Party,往来单位
 DocType: Healthcare Settings,Patient Name,患者姓名
@@ -6834,7 +6834,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,允许评估价为0
 DocType: Bank Guarantee,Receiving,接收
 DocType: Training Event Employee,Invited,已邀请
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,设置网关科目。
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,将您的银行帐户连接到ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,将您的银行帐户连接到ERPNext
 DocType: Employee,Employment Type,员工类别
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,从模板创建项目。
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,固定资产

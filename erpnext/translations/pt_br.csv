@@ -1091,7 +1091,7 @@ apps/erpnext/erpnext/templates/includes/footer/footer_extension.html,Get Updates
 DocType: Buying Settings,Allow Item to be added multiple times in a transaction,Permitir item a ser adicionado várias vezes em uma transação
 DocType: Job Opening,Staffing Plan,Planejamento de Escala de Colaboradores
 DocType: Account,Stock Adjustment,Ajuste do estoque
-,Welcome to ERPNext,Bem vindo ao ERPNext
+,Welcome to ERPV,Bem vindo ao ERPV
 DocType: Payment Entry,Total Allocated Amount (Company Currency),Total alocado (moeda da empresa)
 DocType: BOM Operation,Operating Cost(Company Currency),Custo operacional (moeda da empresa)
 apps/erpnext/erpnext/setup/doctype/authorization_rule/authorization_rule.py,Customer required for 'Customerwise Discount',Necessário para ' Customerwise Discount ' Cliente
@@ -1688,7 +1688,7 @@ DocType: Stock Reconciliation,Reconciliation JSON,Reconciliação JSON
 DocType: Landed Cost Voucher,Landed Cost Voucher,Comprovante de Custos de Desembarque
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.py,Please enter Material Requests in the above table,Por favor insira as Requisições de Material na tabela acima
 DocType: Purchase Invoice,Return,Devolução
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,Leia o manual de ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,Leia o manual de ERPV
 DocType: Accounts Settings,Role Allowed to Set Frozen Accounts & Edit Frozen Entries,Papel permissão para definir as contas congeladas e editar entradas congeladas
 DocType: Supplier Quotation Item,Lead Time in days,Prazo de Entrega (em dias)
 DocType: Item Group,HTML / Banner that will show on the top of product list.,HTML / Faixa que vai ser mostrada no topo da lista de produtos.
@@ -1800,7 +1800,7 @@ DocType: Item,Reorder level based on Warehouse,Nível de reposição baseado no 
 apps/erpnext/erpnext/utilities/activation.py,Add Timesheets,Adicionar Registo de Tempo
 DocType: Production Plan Sales Order,Production Plan Sales Order,Pedido de Venda do Plano de Produção
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Please enter parent cost center,Por favor entre o centro de custo pai
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,Vá para o ambiente de trabalho e começar a usar ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,Vá para o ambiente de trabalho e começar a usar ERPV
 DocType: Leave Application,Leave Balance Before Application,Saldo de Licenças Antes da Solicitação
 DocType: Asset,Journal Entry for Scrap,Lançamento no Livro Diário para Sucata
 apps/erpnext/erpnext/hr/doctype/employee_benefit_application/employee_benefit_application.py,Employee {0} already submited an apllication {1} for the payroll period {2},O colaborador {0} já enviou uma aplicação {1} para o período da folha de pagamento {2}
@@ -2240,7 +2240,7 @@ DocType: Purchase Order,Get Items from Open Material Requests,Obter Itens de Req
 DocType: Bank Account,Party,Parceiro
 DocType: Purchase Receipt,Time at which materials were received,Horário em que os materiais foram recebidos
 apps/erpnext/erpnext/stock/doctype/serial_no/serial_no.py,Serial Nos Required for Serialized Item {0},Nº de Série Obrigatório para o Item Serializado {0}
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,Demo do ERPNext
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,Demo do ERPV
 DocType: Pricing Rule,Min Qty,Qtde Mínima
 DocType: Purchase Receipt Item Supplied,Purchase Receipt Item Supplied,Item do Recibo de Compra Fornecido
 apps/erpnext/erpnext/setup/doctype/authorization_control/authorization_control.py,Not authroized since {0} exceeds limits,Não authroized desde {0} excede os limites
@@ -2549,7 +2549,7 @@ DocType: Student Group Creation Tool,Student Group Creation Tool,Ferramenta de C
 apps/erpnext/erpnext/config/help.py,Material Request to Purchase Order,Requisição de Material para Pedido de Compra
 apps/erpnext/erpnext/erpnext_integrations/utils.py,Unverified Webhook Data,Dados não-confirmados do Webhook
 DocType: Pick List,Parent Warehouse,Armazén Pai
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,Este é um exemplo website auto- gerada a partir ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,Este é um exemplo website auto- gerada a partir ERPV
 DocType: Chapter Member,Leave Reason,Motivo da Saída
 DocType: Item Group,Show this slideshow at the top of the page,Mostrar esta apresentação de slides no topo da página
 DocType: Loan Type,Maximum Loan Amount,Valor Máximo de Empréstimo
@@ -2880,7 +2880,7 @@ apps/erpnext/erpnext/manufacturing/doctype/bom/bom.py,Quantity required for Item
 DocType: Project,% Complete Method,Método para % Concluído
 DocType: Employee Promotion,Employee Promotion Detail,Detalhe de Promoção do Colaborador
 DocType: Bin,Stock Value,Valor do Estoque
-DocType: Item,Publish Item to hub.erpnext.com,Publicar Item para hub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,Publicar Item para hub.erpv.advintic.com
 DocType: Purchase Invoice,Select Shipping Address,Selecione um Endereço de Entrega
 apps/erpnext/erpnext/accounts/report/balance_sheet/balance_sheet.py,Previous Financial Year is not closed,O Ano Financeiro Anterior não está fechado
 DocType: Employee,Current Address Is,Endereço atual é
@@ -2943,7 +2943,7 @@ DocType: POS Profile,Update Stock,Atualizar Estoque
 DocType: Purchase Invoice,Terms and Conditions1,Termos e Condições
 apps/erpnext/erpnext/controllers/stock_controller.py,Expense / Difference account ({0}) must be a 'Profit or Loss' account,Despesa conta / Diferença ({0}) deve ser um 'resultados' conta
 DocType: Work Order Operation,Actual Time and Cost,Tempo e Custo Real
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Para tirar o melhor proveito do ERPNext, recomendamos que você dedique algum tempo para assistir a esses vídeos de ajuda."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","Para tirar o melhor proveito do ERPV, recomendamos que você dedique algum tempo para assistir a esses vídeos de ajuda."
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,Configurando Conta de Email
 DocType: Landed Cost Item,Purchase Receipt Item,Item do Recibo de Compra
 apps/erpnext/erpnext/setup/doctype/company/company.py,"Cannot change company's default currency, because there are existing transactions. Transactions must be cancelled to change the default currency.","Não é possível alterar a moeda padrão da empresa, porque existem operações existentes. Transações devem ser canceladas para alterar a moeda padrão."

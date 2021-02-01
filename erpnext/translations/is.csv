@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,Kosta og innheimtu
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},Forgangsreikningur gjaldmiðill ætti að vera sá sami og gjaldmiðill fyrirtækisins {0}
 DocType: QuickBooks Migrator,Token Endpoint,Tollpunktur endapunktar
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,Reikningur {0}: Foreldri reikningur {1} getur ekki verið höfuðbók
-DocType: Item,Publish Item to hub.erpnext.com,Birta Item til hub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,Birta Item til hub.erpv.advintic.com
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,Get ekki fundið virka skiladag
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,mat
 DocType: Item,Default Unit of Measure,Default Mælieiningin
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,Vara þyngd upplýsingar
 DocType: Asset Maintenance Log,Periodicity,tíðni
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,Reikningsár {0} er krafist
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,Hagnaður / tap
-DocType: Employee Group Table,ERPNext User ID,ERPNext notandanafn
+DocType: Employee Group Table,ERPV User ID,ERPV notandanafn
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,Lágmarksfjarlægðin milli raða plantna fyrir bestu vöxt
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,Vinsamlegast veldu sjúkling til að fá ávísað verklag
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,Defense
@@ -484,7 +484,7 @@ DocType: Supplier Scorecard,Criteria Setup,Viðmiðunarskipulag
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,Fyrir Lager er krafist áður Senda
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,fékk á
 DocType: Codification Table,Medical Code,Læknisbók
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,Tengdu Amazon með ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,Tengdu Amazon með ERPV
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,Hafðu samband við okkur
 DocType: Delivery Note Item,Against Sales Invoice Item,Gegn sölureikningi Item
 DocType: Agriculture Analysis Criteria,Linked Doctype,Tengd Doctype
@@ -740,7 +740,7 @@ DocType: POS Closing Voucher,Difference,Mismunur
 DocType: Delivery Settings,Delay between Delivery Stops,Tafir milli afhendingarstöðva
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},Serial Nei {0} ekki tilheyra afhendingarseðlinum {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Það virðist vera vandamál með GoCardless stillingar miðlara. Ekki hafa áhyggjur, ef bilun verður, þá færðu upphæðin endurgreiðslu á reikninginn þinn."
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,Bæta Hlutir
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Item Quality Inspection Parameter
 DocType: Leave Application,Leave Approver Name,Skildu samþykkjari Nafn
@@ -805,7 +805,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,Vinsamlegast sláðu inn nafn fyrirtækis fyrst
 DocType: Travel Itinerary,Non-Vegetarian,Non-Vegetarian
 DocType: Purchase Invoice,Supplier Name,Nafn birgja
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,Lestu ERPNext Manual
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,Lestu ERPV Manual
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Sýna blöð allra deildarmanna í dagatalinu
 DocType: Purchase Invoice,01-Sales Return,01-Velta aftur
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,Magn á hverja BOM línu
@@ -1457,7 +1457,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,Skrifstofa viðhald kostnaður
 ,BOM Explorer,BOM Explorer
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,Fara til
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Uppfæra verð frá Shopify til ERPNext Verðskrá
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,Uppfæra verð frá Shopify til ERPV Verðskrá
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,Setja upp Email Account
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,Vinsamlegast sláðu inn Item fyrst
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,Þarfir greining
@@ -1584,7 +1584,7 @@ DocType: Fertilizer,Fertilizer Contents,Innihald áburðar
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,Rannsóknir og þróun
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,Upphæð Bill
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,Byggt á greiðsluskilmálum
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,ERPNext stillingar
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,ERPV stillingar
 DocType: Company,Registration Details,Skráning Details
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,Ekki var hægt að setja þjónustustigssamning {0}.
 DocType: Timesheet,Total Billed Amount,Alls Billed Upphæð
@@ -1624,7 +1624,7 @@ DocType: Leave Type,Encashment Threshold Days,Skrímsluskammtardagar
 ,Final Assessment Grades,Lokamat
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,Nafn fyrirtækis þíns sem þú ert að setja upp þetta kerfi.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Fela frí í algjöru nr. vinnudaga
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,Setjið stofnunina þína í ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,Setjið stofnunina þína í ERPV
 DocType: Agriculture Analysis Criteria,Plant Analysis,Plant Greining
 DocType: Task,Timeline,Tímalína
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,haldið
@@ -1704,7 +1704,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,Kaupa Reikningar Adva
 DocType: Shift Type,Every Valid Check-in and Check-out,Sérhver gilt innritun og útskráning
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},Row {0}: Credit færslu er ekki hægt að tengja með {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,Skilgreina fjárhagsáætlun fyrir fjárhagsár.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext reikningur
+DocType: Shopify Tax Account,ERPV Account,ERPV reikningur
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,Veittu námsárið og stilltu upphafs- og lokadagsetningu.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,{0} er læst þannig að þessi viðskipti geta ekki haldið áfram
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Aðgerð ef uppsafnað mánaðarlegt fjárhagsáætlun fór yfir MR
@@ -1893,7 +1893,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,Ekki er hægt að vera fast eignalýsing þar sem birgir er búið til.
 DocType: Subscription Plan,Fixed rate,Fast gjald
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,Viðurkenna
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,Fara á Desktop og byrja að nota ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,Fara á Desktop og byrja að nota ERPV
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,Borga áfram
 DocType: Purchase Invoice Item,Manufacturer,framleiðandi
 DocType: Landed Cost Item,Purchase Receipt Item,Kvittun Item
@@ -2081,7 +2081,7 @@ DocType: Employee Checkin,Shift End,Shift End
 DocType: Stock Settings,Default Item Group,Sjálfgefið Item Group
 DocType: Job Card Time Log,Time In Mins,Tími í mín
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,Veita upplýsingar.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,Þessi aðgerð mun aftengja þennan reikning frá ytri þjónustu sem samþættir ERPNext við bankareikninga þína. Ekki er hægt að afturkalla það. Ertu viss?
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,Þessi aðgerð mun aftengja þennan reikning frá ytri þjónustu sem samþættir ERPV við bankareikninga þína. Ekki er hægt að afturkalla það. Ertu viss?
 apps/erpnext/erpnext/config/buying.py,Supplier database.,Birgir gagnagrunni.
 DocType: Contract Template,Contract Terms and Conditions,Samningsskilmálar og skilyrði
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,Þú getur ekki endurræst áskrift sem ekki er lokað.
@@ -2220,7 +2220,7 @@ DocType: Purchase Invoice,Rejected Warehouse,hafnað Warehouse
 DocType: GL Entry,Against Voucher,Against Voucher
 DocType: Item Default,Default Buying Cost Center,Sjálfgefið Buying Kostnaður Center
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,Ný greiðsla
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Til að fá það besta út úr ERPNext, mælum við með að þú að taka nokkurn tíma og horfa á þessi hjálp vídeó."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","Til að fá það besta út úr ERPV, mælum við með að þú að taka nokkurn tíma og horfa á þessi hjálp vídeó."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),Fyrir Sjálfgefið Birgir (valfrjálst)
 DocType: Supplier Quotation Item,Lead Time in days,Lead Time í dögum
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),Skotmark ({})
@@ -3965,7 +3965,7 @@ DocType: Quality Meeting,Agenda,Dagskrá
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,Viðhald Dagskrá Detail
 DocType: Supplier Scorecard,Warn for new Purchase Orders,Varið við nýjar innkaupapantanir
 DocType: Quality Inspection Reading,Reading 9,lestur 9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,Tengdu Exotel reikninginn þinn við ERPNext og fylgdu símtalaskrám
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,Tengdu Exotel reikninginn þinn við ERPV og fylgdu símtalaskrám
 DocType: Supplier,Is Frozen,er frosinn
 DocType: Tally Migration,Processed Files,Unnar skrár
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,Group hnút vöruhús er ekki leyft að velja fyrir viðskipti
@@ -4116,7 +4116,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} gegn Purchase Order {1}
 DocType: Patient,Patient Demographics,Lýðfræðilegar upplýsingar um sjúklinga
 DocType: Task,Actual Start Date (via Time Sheet),Raunbyrjunardagsetning (með Time Sheet)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,Þetta er dæmi website sjálfvirkt mynda frá ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,Þetta er dæmi website sjálfvirkt mynda frá ERPV
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,Ageing Range 1
 DocType: Shopify Settings,Enable Shopify,Virkja Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,Samtals fyrirfram upphæð getur ekki verið hærri en heildarfjölda krafna
@@ -4441,7 +4441,7 @@ DocType: Work Order Operation,Planned Start Time,Planned Start Time
 DocType: Course,Assessment,mat
 DocType: Payment Entry Reference,Allocated,úthlutað
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,Loka Efnahagur og bók hagnaður eða tap.
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext gat ekki fundið neina samsvarandi greiðslufærslu
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPV gat ekki fundið neina samsvarandi greiðslufærslu
 DocType: Student Applicant,Application Status,Umsókn Status
 DocType: Additional Salary,Salary Component Type,Launaviðskiptategund
 DocType: Sensitivity Test Items,Sensitivity Test Items,Næmi próf atriði
@@ -4768,7 +4768,7 @@ DocType: Department,Expense Approver,Expense samþykkjari
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,Row {0}: Advance gegn Viðskiptavinur verður að vera trúnaður
 DocType: Quality Meeting,Quality Meeting,Gæðafundur
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,Non-Group til Group
-DocType: Employee,ERPNext User,ERPNext User
+DocType: Employee,ERPV User,ERPV User
 DocType: Coupon Code,Coupon Description,Afsláttarmiða lýsing
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},Hópur er nauðsynlegur í röð {0}
 DocType: Company,Default Buying Terms,Sjálfgefnir kaupsskilmálar
@@ -5205,7 +5205,7 @@ DocType: Loyalty Point Entry,Redeem Against,Innleysa gegn
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,Bankastarfsemi og greiðslur
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,Vinsamlegast sláðu inn API neytenda lykil
 DocType: Issue,Service Level Agreement Fulfilled,Þjónustustigssamningur uppfylltur
-,Welcome to ERPNext,Velkomið að ERPNext
+,Welcome to ERPV,Velkomið að ERPV
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,Leiða til tilvitnun
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,Email Áminningar verða sendar öllum aðilum með tengiliðum í tölvupósti
 DocType: Project,Twice Daily,Tvisvar á dag
@@ -5675,7 +5675,7 @@ DocType: Account,Bank,Bank
 DocType: Job Card,Job Started,Starf byrjað
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,Airline
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,Issue Efni
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,Tengdu Shopify með ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,Tengdu Shopify með ERPV
 DocType: Production Plan,For Warehouse,fyrir Warehouse
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,Sendingarskýringar {0} uppfærðar
 DocType: Employee,Offer Date,Tilboð Dagsetning
@@ -5798,7 +5798,7 @@ DocType: Leave Control Panel,Carry Forward,Haltu áfram
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,Kostnaður Center við núverandi viðskipti er ekki hægt að breyta í höfuðbók
 DocType: Budget,Applicable on booking actual expenses,Gildir á bókun raunkostnaði
 DocType: Department,Days for which Holidays are blocked for this department.,Dagar sem Frídagar eru læst í þessari deild.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Sameiningar
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV Sameiningar
 DocType: Crop Cycle,Detected Disease,Uppgötvað sjúkdómur
 ,Produced,framleidd
 DocType: Issue,Raised By (Email),Vakti By (Email)
@@ -6576,7 +6576,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,Reikna áætlaðan komutíma
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,Reikningur: {0} Aðeins er hægt að uppfæra í gegnum lager Viðskipti
 DocType: Student Group Creation Tool,Get Courses,fá Námskeið
-DocType: Tally Migration,ERPNext Company,ERPNext fyrirtæki
+DocType: Tally Migration,ERPV Company,ERPV fyrirtæki
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,Party
 DocType: Healthcare Settings,Patient Name,Nafn sjúklinga
@@ -6754,7 +6754,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,Leyfa núgildandi verð
 DocType: Bank Guarantee,Receiving,Fá
 DocType: Training Event Employee,Invited,boðið
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,Skipulag Gateway reikninga.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,Tengdu bankareikninga þína við ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,Tengdu bankareikninga þína við ERPV
 DocType: Employee,Employment Type,Atvinna Type
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,Búðu til verkefni úr sniðmáti.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,Fastafjármunir

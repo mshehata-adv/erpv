@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,செலவு மற்றும் ப�
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},முன்னோக்கி கணக்கு நாணய நிறுவனம் நாணயமாக இருக்க வேண்டும் {0}
 DocType: QuickBooks Migrator,Token Endpoint,டோக்கன் இறுதிநிலை
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,கணக்கு {0}: பெற்றோர் கணக்கு {1} ஒரு பேரேட்டில் இருக்க முடியாது
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com செய்ய உருப்படியை வெளியிட
+DocType: Item,Publish Item to hub.erpv.advintic.com,Hub.erpv.advintic.com செய்ய உருப்படியை வெளியிட
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,செயலில் விடுப்பு காலம் கண்டுபிடிக்க முடியவில்லை
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,மதிப்பீட்டு
 DocType: Item,Default Unit of Measure,மெஷர் முன்னிருப்பு அலகு
@@ -145,7 +145,7 @@ DocType: Purchase Invoice Item,Item Weight Details,பொருள் எடை 
 DocType: Asset Maintenance Log,Periodicity,வட்டம்
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,நிதியாண்டு {0} தேவையான
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,நிகர லாபம் / இழப்பு
-DocType: Employee Group Table,ERPNext User ID,ERPNext பயனர் ஐடி
+DocType: Employee Group Table,ERPV User ID,ERPV பயனர் ஐடி
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,உகந்த வளர்ச்சிக்கு தாவரங்களின் வரிசைகள் இடையே குறைந்தபட்ச தூரம்
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,பரிந்துரைக்கப்பட்ட நடைமுறைகளைப் பெற நோயாளியைத் தேர்ந்தெடுக்கவும்
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,பாதுகாப்பு
@@ -480,7 +480,7 @@ DocType: Supplier Scorecard,Criteria Setup,நிபந்தனை அமைப
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,கிடங்கு தேவையாக முன் சமர்ப்பிக்க
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,அன்று பெறப்பட்டது
 DocType: Codification Table,Medical Code,மருத்துவக் குறியீடு
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,ERPNext உடன் அமேசான் இணைக்கவும்
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,ERPV உடன் அமேசான் இணைக்கவும்
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,எங்களை தொடர்பு கொள்ள
 DocType: Delivery Note Item,Against Sales Invoice Item,விற்பனை விலைப்பட்டியல் பொருள் எதிராக
 DocType: Agriculture Analysis Criteria,Linked Doctype,இணைக்கப்பட்ட டாக்டைப்
@@ -735,7 +735,7 @@ DocType: POS Closing Voucher,Difference,வேறுபாடு
 DocType: Delivery Settings,Delay between Delivery Stops,டெலிவரி ஸ்டோப்புகளுக்கு இடையில் தாமதம்
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},தொடர் இல {0} டெலிவரி குறிப்பு அல்ல {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","சேவையகத்தின் GoCardless கட்டமைப்பில் ஒரு சிக்கல் இருக்கிறது. கவலைப்படாதே, தோல்வி ஏற்பட்டால், உங்கள் கணக்கில் பணம் திரும்பப்பெறப்படும்."
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext டெமோ
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV டெமோ
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,பொருட்களை சேர்க்க
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,பொருள் தரமான ஆய்வு அளவுரு
 DocType: Leave Application,Leave Approver Name,தரப்பில் சாட்சி பெயர் விடவும்
@@ -801,7 +801,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,முதல் நிறுவனத்தின் பெயரை உள்ளிடுக
 DocType: Travel Itinerary,Non-Vegetarian,போத்
 DocType: Purchase Invoice,Supplier Name,வழங்குபவர் பெயர்
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,ERPNext கையேட்டை வாசிக்க
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,ERPV கையேட்டை வாசிக்க
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,நாட்காட்டி அனைத்து திணைக்கள உறுப்பினர்களையும் காண்பி
 DocType: Purchase Invoice,01-Sales Return,01-விற்பனை திருப்பு
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,BOM வரிக்கு Qty
@@ -1460,7 +1460,7 @@ apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Biotechnology,ப�
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,அலுவலகம் பராமரிப்பு செலவுகள்
 ,BOM Explorer,BOM எக்ஸ்ப்ளோரர்
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,செல்க
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify இலிருந்து ERPNext விலை பட்டியல் புதுப்பிக்கவும்
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,Shopify இலிருந்து ERPV விலை பட்டியல் புதுப்பிக்கவும்
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,மின்னஞ்சல் கணக்கை அமைத்ததற்கு
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,முதல் பொருள் உள்ளிடவும்
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,தேவைகள் பகுப்பாய்வு
@@ -1587,7 +1587,7 @@ DocType: Fertilizer,Fertilizer Contents,உரம் பொருளடக்க
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,ஆராய்ச்சி மற்றும் அபிவிருத்தி
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,ரசீது தொகை
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,கட்டண விதிமுறைகளின் அடிப்படையில்
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,ERPNext அமைப்புகள்
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,ERPV அமைப்புகள்
 DocType: Company,Registration Details,பதிவு விவரங்கள்
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,சேவை நிலை ஒப்பந்தத்தை அமைக்க முடியவில்லை {0}.
 DocType: Timesheet,Total Billed Amount,மொத்த பில் தொகை
@@ -1627,7 +1627,7 @@ DocType: Leave Type,Encashment Threshold Days,Encashment Threshold Days
 ,Final Assessment Grades,இறுதி மதிப்பீட்டு தரங்கள்
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,நீங்கள் இந்த அமைப்பை அமைக்க இது உங்கள் நிறுவனத்தின் பெயர் .
 DocType: HR Settings,Include holidays in Total no. of Working Days,மொத்த எந்த விடுமுறை அடங்கும். வேலை நாட்கள்
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,ERPNext இல் உங்கள் நிறுவனத்தை அமைத்தல்
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,ERPV இல் உங்கள் நிறுவனத்தை அமைத்தல்
 DocType: Agriculture Analysis Criteria,Plant Analysis,தாவர பகுப்பாய்வு
 DocType: Task,Timeline,காலக்கெடு
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,பிடி
@@ -1706,7 +1706,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,விலைப்ப
 DocType: Shift Type,Every Valid Check-in and Check-out,ஒவ்வொரு செல்லுபடியாகும் செக்-இன் மற்றும் செக்-அவுட்
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},ரோ {0}: கடன் நுழைவு இணைத்தே ஒரு {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,ஒரு நிதி ஆண்டில் வரவு-செலவுத் திட்ட வரையறை.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext கணக்கு
+DocType: Shopify Tax Account,ERPV Account,ERPV கணக்கு
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,கல்வி ஆண்டை வழங்கி தொடக்க மற்றும் இறுதி தேதியை அமைக்கவும்.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,"{0} தடுக்கப்பட்டுள்ளது, எனவே இந்த பரிவர்த்தனை தொடர முடியாது"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,எம்.ஆர்.ஆர் மீது மாதாந்திர பட்ஜெட் திரட்டியிருந்தால் நடவடிக்கை
@@ -1895,7 +1895,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,பங்கு லெட்ஜர் உருவாக்கிய ஒரு நிலையான சொத்து பொருந்தக்கூடியதாக இருக்க முடியாது.
 DocType: Subscription Plan,Fixed rate,நிலையான விகிதம்
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,ஒப்புக்கொள்ள
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,டெஸ்க்டாப் சென்று ERPNext பயன்படுத்தி தொடங்க
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,டெஸ்க்டாப் சென்று ERPV பயன்படுத்தி தொடங்க
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,மீதமுள்ள பணம்
 DocType: Purchase Invoice Item,Manufacturer,உற்பத்தியாளர்
 DocType: Landed Cost Item,Purchase Receipt Item,ரசீது பொருள் வாங்க
@@ -2080,7 +2080,7 @@ DocType: Employee Checkin,Shift End,ஷிப்ட் முடிவு
 DocType: Stock Settings,Default Item Group,இயல்புநிலை பொருள் குழு
 DocType: Job Card Time Log,Time In Mins,நிமிடங்களில் நேரம்
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,தகவல்களை வழங்குதல்.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,இந்த நடவடிக்கை உங்கள் வங்கிக் கணக்குகளுடன் ERPNext ஐ ஒருங்கிணைக்கும் எந்த வெளி சேவையிலிருந்தும் இந்த கணக்கை இணைக்காது. அதை செயல்தவிர்க்க முடியாது. நீங்கள் உறுதியாக இருக்கிறீர்களா?
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,இந்த நடவடிக்கை உங்கள் வங்கிக் கணக்குகளுடன் ERPV ஐ ஒருங்கிணைக்கும் எந்த வெளி சேவையிலிருந்தும் இந்த கணக்கை இணைக்காது. அதை செயல்தவிர்க்க முடியாது. நீங்கள் உறுதியாக இருக்கிறீர்களா?
 apps/erpnext/erpnext/config/buying.py,Supplier database.,வழங்குபவர் தரவுத்தள.
 DocType: Contract Template,Contract Terms and Conditions,ஒப்பந்த விதிமுறைகள் மற்றும் நிபந்தனைகள்
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,ரத்துசெய்யப்படாத சந்தாவை மறுதொடக்கம் செய்ய முடியாது.
@@ -2219,7 +2219,7 @@ DocType: Purchase Invoice,Rejected Warehouse,நிராகரிக்கப�
 DocType: GL Entry,Against Voucher,வவுச்சர் எதிராக
 DocType: Item Default,Default Buying Cost Center,இயல்புநிலை வாங்குதல் செலவு மையம்
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,புதிய கட்டணம்
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext சிறந்த வெளியே, நாங்கள் உங்களுக்கு சில நேரம் இந்த உதவி வீடியோக்களை பார்க்க வேண்டும் என்று பரிந்துரைக்கிறோம்."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","ERPV சிறந்த வெளியே, நாங்கள் உங்களுக்கு சில நேரம் இந்த உதவி வீடியோக்களை பார்க்க வேண்டும் என்று பரிந்துரைக்கிறோம்."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),இயல்புநிலை வழங்குநருக்கு (விரும்பினால்)
 DocType: Supplier Quotation Item,Lead Time in days,நாட்கள் முன்னணி நேரம்
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),இலக்கு ({})
@@ -3949,7 +3949,7 @@ DocType: Quality Meeting,Agenda,நிகழ்ச்சி நிரல்
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,பராமரிப்பு அட்டவணை விபரம்
 DocType: Supplier Scorecard,Warn for new Purchase Orders,புதிய கொள்முதல் ஆணைகளுக்கு எச்சரிக்கை
 DocType: Quality Inspection Reading,Reading 9,9 படித்தல்
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,உங்கள் Exotel கணக்கை ERPNext உடன் இணைத்து அழைப்பு பதிவுகளை கண்காணிக்கவும்
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,உங்கள் Exotel கணக்கை ERPV உடன் இணைத்து அழைப்பு பதிவுகளை கண்காணிக்கவும்
 DocType: Supplier,Is Frozen,உறைந்திருக்கும்
 DocType: Tally Migration,Processed Files,பதப்படுத்தப்பட்ட கோப்புகள்
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,குழு முனை கிடங்கில் பரிமாற்றங்கள் தேர்ந்தெடுக்க அனுமதி இல்லை
@@ -4099,7 +4099,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} கொள்முதல் ஆணை எதிரான {1}
 DocType: Patient,Patient Demographics,நோயாளியின் புள்ளிவிவரங்கள்
 DocType: Task,Actual Start Date (via Time Sheet),உண்மையான தொடங்கும் தேதி (நேரம் தாள் வழியாக)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,இந்த ERPNext இருந்து தானாக உருவாக்கப்பட்ட ஒரு உதாரணம் இணையதளம் உள்ளது
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,இந்த ERPV இருந்து தானாக உருவாக்கப்பட்ட ஒரு உதாரணம் இணையதளம் உள்ளது
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,மூப்படைதலுக்கான ரேஞ்ச்
 DocType: Shopify Settings,Enable Shopify,Shopify ஐ இயக்கு
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,மொத்த முன்கூட்டப்பட்ட தொகையை விட மொத்த முன்கூட்டிய தொகை அதிகமாக இருக்க முடியாது
@@ -4439,7 +4439,7 @@ DocType: Work Order Operation,Planned Start Time,திட்டமிட்ட 
 DocType: Course,Assessment,மதிப்பீடு
 DocType: Payment Entry Reference,Allocated,ஒதுக்கீடு
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,Close இருப்புநிலை மற்றும் புத்தகம் லாபம் அல்லது நஷ்டம் .
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,பொருந்தக்கூடிய கட்டண நுழைவு எதுவும் ஈஆர்பிஎன்ஸ்ட்டால் கண்டுபிடிக்க முடியவில்லை
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,பொருந்தக்கூடிய கட்டண நுழைவு எதுவும் ஈஆர்பிஎன்ஸ்ட்டால் கண்டுபிடிக்க முடியவில்லை
 DocType: Student Applicant,Application Status,விண்ணப்பத்தின் நிலை
 DocType: Additional Salary,Salary Component Type,சம்பள உபகரண வகை
 DocType: Sensitivity Test Items,Sensitivity Test Items,உணர்திறன் சோதனை பொருட்கள்
@@ -4773,7 +4773,7 @@ DocType: Department,Expense Approver,செலவின தரப்பில்
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,ரோ {0}: வாடிக்கையாளர் எதிராக அட்வான்ஸ் கடன் இருக்க வேண்டும்
 DocType: Quality Meeting,Quality Meeting,தரக் கூட்டம்
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,குழு அல்லாத குழு
-DocType: Employee,ERPNext User,ERPNext பயனர்
+DocType: Employee,ERPV User,ERPV பயனர்
 DocType: Coupon Code,Coupon Description,கூப்பன் விளக்கம்
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},தொகுதி வரிசையில் கட்டாயமாகிறது {0}
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},தொகுதி வரிசையில் கட்டாயமாகிறது {0}
@@ -5208,7 +5208,7 @@ DocType: Loyalty Point Entry,Redeem Against,மீட்டெடு
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,வங்கி மற்றும் கொடுப்பனவுகள்
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,ஏபிஐ நுகர்வோர் விசை உள்ளிடவும்
 DocType: Issue,Service Level Agreement Fulfilled,சேவை நிலை ஒப்பந்தம் நிறைவேறியது
-,Welcome to ERPNext,ERPNext வரவேற்கிறோம்
+,Welcome to ERPV,ERPV வரவேற்கிறோம்
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,மேற்கோள் வழிவகுக்கும்
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,மின்னஞ்சல் நினைவூட்டல்களுடன் அனைத்துக் கட்சிகளுக்கும் மின்னஞ்சல் நினைவூட்டிகள் அனுப்பப்படும்
 DocType: Project,Twice Daily,தினமும் இருமுறை
@@ -5673,7 +5673,7 @@ DocType: Account,Bank,வங்கி
 DocType: Job Card,Job Started,வேலை தொடங்கியது
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,விமானத்துறை
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,பிரச்சினை பொருள்
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,ERPNext உடன் Shopify ஐ இணைக்கவும்
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,ERPV உடன் Shopify ஐ இணைக்கவும்
 DocType: Production Plan,For Warehouse,கிடங்கு
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,டெலிவரி குறிப்புகள் {0} புதுப்பிக்கப்பட்டன
 DocType: Employee,Offer Date,சலுகை  தேதி
@@ -5797,7 +5797,7 @@ DocType: Leave Control Panel,Carry Forward,முன்னெடுத்து 
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,ஏற்கனவே பரிவர்த்தனைகள் செலவு மையம் லெட்ஜரிடம் மாற்ற முடியாது
 DocType: Budget,Applicable on booking actual expenses,உண்மையான செலவினங்களை பதிவு செய்வதில் பொருந்தும்
 DocType: Department,Days for which Holidays are blocked for this department.,இது விடுமுறை நாட்கள் இந்த துறை தடுக்கப்பட்டது.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext ஒருங்கிணைப்புகள்
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV ஒருங்கிணைப்புகள்
 DocType: Crop Cycle,Detected Disease,கண்டறியப்பட்ட நோய்
 ,Produced,உற்பத்தி
 DocType: Issue,Raised By (Email),(மின்னஞ்சல்) மூலம் எழுப்பப்பட்ட
@@ -6566,7 +6566,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,கணக்கிடப்பட்ட வருகை டைம்ஸ் கணக்கிடுங்கள்
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,கணக்கு: {0} மட்டுமே பங்கு பரிவர்த்தனைகள் வழியாக புதுப்பிக்க முடியும்
 DocType: Student Group Creation Tool,Get Courses,மைதானங்கள் பெற
-DocType: Tally Migration,ERPNext Company,ஈஆர்பிஎன்ஸ்ட் நிறுவனம்
+DocType: Tally Migration,ERPV Company,ஈஆர்பிஎன்ஸ்ட் நிறுவனம்
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,கட்சி
 DocType: Healthcare Settings,Patient Name,நோயாளி பெயர்
@@ -6741,7 +6741,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,ஜீரோ மத�
 DocType: Bank Guarantee,Receiving,பெறுதல்
 DocType: Training Event Employee,Invited,அழைப்பு
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,அமைப்பு நுழைவாயில் கணக்குகள்.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,உங்கள் வங்கி கணக்குகளை ERPNext உடன் இணைக்கவும்
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,உங்கள் வங்கி கணக்குகளை ERPV உடன் இணைக்கவும்
 DocType: Employee,Employment Type,வேலை வகை
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,ஒரு டெம்ப்ளேட்டிலிருந்து திட்டத்தை உருவாக்கவும்.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,நிலையான சொத்துக்கள்

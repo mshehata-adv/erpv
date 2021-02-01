@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,원가 계산 및 결제
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},선금 계정 통화는 회사 통화 {0}과 같아야합니다.
 DocType: QuickBooks Migrator,Token Endpoint,토큰 엔드 포인트
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,계정 {0} : 부모 계정은 {1} 원장이 될 수 없습니다
-DocType: Item,Publish Item to hub.erpnext.com,hub.erpnext.com에 항목을 게시
+DocType: Item,Publish Item to hub.erpv.advintic.com,hub.erpnext.com에 항목을 게시
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,활성 휴가 기간을 찾을 수 없습니다.
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,평가
 DocType: Item,Default Unit of Measure,측정의 기본 단위
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,품목 무게 세부 사항
 DocType: Asset Maintenance Log,Periodicity,주기성
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,회계 연도는 {0} 필요
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,순이익 / 손실
-DocType: Employee Group Table,ERPNext User ID,ERPNext 사용자 ID
+DocType: Employee Group Table,ERPV User ID,ERPV 사용자 ID
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,최적 성장을위한 식물의 줄 사이의 최소 거리
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,규정 된 절차를 받으려면 환자를 선택하십시오.
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,방어
@@ -485,7 +485,7 @@ DocType: Supplier Scorecard,Criteria Setup,기준 설정
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,창고가 필요한 내용은 이전에 제출
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,에 수신
 DocType: Codification Table,Medical Code,의료 코드
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,Amazon과 ERPNext 연결
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,Amazon과 ERPV 연결
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,연락처
 DocType: Delivery Note Item,Against Sales Invoice Item,견적서 항목에 대하여
 DocType: Agriculture Analysis Criteria,Linked Doctype,링크 된 Doctype
@@ -742,7 +742,7 @@ DocType: POS Closing Voucher,Difference,차
 DocType: Delivery Settings,Delay between Delivery Stops,배달 중단 사이의 지연
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},일련 번호 {0} 배달 주에 속하지 않는 {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",서버의 GoCardless 구성에 문제가있는 것 같습니다. 실패 할 경우 걱정하지 마십시오. 금액이 귀하의 계정으로 환급됩니다.
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext 데모
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV 데모
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,항목 추가
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,상품 품질 검사 매개 변수
 DocType: Leave Application,Leave Approver Name,승인자 이름을 남겨주세요
@@ -809,7 +809,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,첫 번째 회사 이름을 입력하십시오
 DocType: Travel Itinerary,Non-Vegetarian,비 채식주의 자
 DocType: Purchase Invoice,Supplier Name,공급 업체 이름
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,ERPNext 설명서를 읽어
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,ERPV 설명서를 읽어
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,캘린더의 모든 부서 멤버의 잎 표시
 DocType: Purchase Invoice,01-Sales Return,01- 판매 반품
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,BOM 라인 당 수량
@@ -1488,7 +1488,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,사무실 유지 비용
 ,BOM Explorer,BOM Explorer
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,이동
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Shopify에서 ERPNext 가격 목록으로 가격 변경
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,Shopify에서 ERPV 가격 목록으로 가격 변경
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,이메일 계정 설정
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,첫 번째 항목을 입력하십시오
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,욕구 분석
@@ -1616,7 +1616,7 @@ DocType: Fertilizer,Fertilizer Contents,비료 내용
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,연구 개발 (R & D)
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,빌 금액
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,지불 조건에 따라
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,ERPNext 설정
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,ERPV 설정
 DocType: Company,Registration Details,등록 세부 사항
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,서비스 수준 계약 {0}을 (를) 설정할 수 없습니다.
 DocType: Timesheet,Total Billed Amount,총 청구 금액
@@ -1656,7 +1656,7 @@ DocType: Leave Type,Encashment Threshold Days,상한선 인계 일수
 ,Final Assessment Grades,최종 평가 성적
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,이 시스템을 설정하는하는 기업의 이름입니다.
 DocType: HR Settings,Include holidays in Total no. of Working Days,없이 총 휴일을 포함. 작업 일의
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,ERPNext에서 연구소 설치
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,ERPNext에서 연구소 설치
 DocType: Agriculture Analysis Criteria,Plant Analysis,식물 분석
 DocType: Task,Timeline,타임 라인
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,길게 누르기
@@ -1736,7 +1736,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,송장 전진에게 �
 DocType: Shift Type,Every Valid Check-in and Check-out,모든 유효한 체크인 및 체크 아웃
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},행은 {0} : 신용 항목에 링크 할 수 없습니다 {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,회계 연도 예산을 정의합니다.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext 계정
+DocType: Shopify Tax Account,ERPV Account,ERPV 계정
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,학년을 제공하고 시작일과 종료일을 설정하십시오.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,{0}이 (가) 차단되어이 거래를 진행할 수 없습니다.
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,누적 된 월 예산이 MR을 초과하는 경우의 조치
@@ -1928,7 +1928,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,주식 원장이 생성되면 고정 자산 항목이 될 수 없습니다.
 DocType: Subscription Plan,Fixed rate,고정 비율
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,들이다
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,바탕 화면으로 이동 ERPNext를 사용하여 시작
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,바탕 화면으로 이동 ERPNext를 사용하여 시작
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,남은 돈
 DocType: Purchase Invoice Item,Manufacturer,제조사:
 DocType: Landed Cost Item,Purchase Receipt Item,구매 영수증 항목
@@ -2118,7 +2118,7 @@ DocType: Employee Checkin,Shift End,시프트 종료
 DocType: Stock Settings,Default Item Group,기본 항목 그룹
 DocType: Job Card Time Log,Time In Mins,분당의 시간
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,정보를 허가하십시오.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,이 조치는 귀하의 은행 계좌에 ERPNext를 통합 한 외부 서비스와이 계정의 연결을 해제합니다. 실행 취소 할 수 없습니다. 확실해 ?
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,이 조치는 귀하의 은행 계좌에 ERPNext를 통합 한 외부 서비스와이 계정의 연결을 해제합니다. 실행 취소 할 수 없습니다. 확실해 ?
 apps/erpnext/erpnext/config/buying.py,Supplier database.,공급 업체 데이터베이스.
 DocType: Contract Template,Contract Terms and Conditions,계약 조건
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,취소되지 않은 구독은 다시 시작할 수 없습니다.
@@ -2259,7 +2259,7 @@ DocType: Purchase Invoice,Rejected Warehouse,거부 창고
 DocType: GL Entry,Against Voucher,바우처에 대한
 DocType: Item Default,Default Buying Cost Center,기본 구매 비용 센터
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,새 지불
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext 중 최고를 얻으려면, 우리는 당신이 약간의 시간이 걸릴 이러한 도움 비디오를 시청할 것을 권장합니다."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","ERPV 중 최고를 얻으려면, 우리는 당신이 약간의 시간이 걸릴 이러한 도움 비디오를 시청할 것을 권장합니다."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),기본 공급 업체 (선택 사항)
 DocType: Supplier Quotation Item,Lead Time in days,일 리드 타임
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),타겟 ({})
@@ -4021,7 +4021,7 @@ DocType: Quality Meeting,Agenda,비망록
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,유지 보수 일정의 세부 사항
 DocType: Supplier Scorecard,Warn for new Purchase Orders,새 구매 주문 경고
 DocType: Quality Inspection Reading,Reading 9,9 읽기
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,Exotel 계정을 ERPNext에 연결하고 통화 기록을 추적하십시오
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,Exotel 계정을 ERPNext에 연결하고 통화 기록을 추적하십시오
 DocType: Supplier,Is Frozen,동결
 DocType: Tally Migration,Processed Files,처리 된 파일
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,그룹 노드웨어 하우스는 트랜잭션을 선택 할 수 없습니다
@@ -4173,7 +4173,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} 구매 주문에 대한 {1}
 DocType: Patient,Patient Demographics,환자 인구 통계
 DocType: Task,Actual Start Date (via Time Sheet),실제 시작 날짜 (시간 시트를 통해)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,이 ERPNext에서 자동으로 생성 예를 들어 웹 사이트입니다
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,이 ERPNext에서 자동으로 생성 예를 들어 웹 사이트입니다
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,고령화 범위 1
 DocType: Shopify Settings,Enable Shopify,Shopify 사용
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,총 대출 금액은 총 청구 금액보다 클 수 없습니다.
@@ -4520,7 +4520,7 @@ DocType: Work Order Operation,Planned Start Time,계획 시작 시간
 DocType: Course,Assessment,평가
 DocType: Payment Entry Reference,Allocated,할당
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,닫기 대차 대조표 및 책 이익 또는 손실.
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext가 일치하는 지불 항목을 찾을 수 없습니다.
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPNext가 일치하는 지불 항목을 찾을 수 없습니다.
 DocType: Student Applicant,Application Status,출원 현황
 DocType: Additional Salary,Salary Component Type,급여 구성 요소 유형
 DocType: Sensitivity Test Items,Sensitivity Test Items,감도 테스트 항목
@@ -4861,7 +4861,7 @@ DocType: Department,Expense Approver,지출 승인
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,행 {0} : 고객에 대한 사전 신용해야합니다
 DocType: Quality Meeting,Quality Meeting,품질 회의
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,그룹에 비 그룹
-DocType: Employee,ERPNext User,ERPNext 사용자
+DocType: Employee,ERPV User,ERPV 사용자
 DocType: Coupon Code,Coupon Description,쿠폰 설명
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},배치는 {0} 행에서 필수 항목입니다.
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},배치는 {0} 행에서 필수 항목입니다.
@@ -5304,7 +5304,7 @@ DocType: Loyalty Point Entry,Redeem Against,사용
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,은행 및 결제
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,API 소비자 키를 입력하십시오.
 DocType: Issue,Service Level Agreement Fulfilled,서비스 수준 계약 완료
-,Welcome to ERPNext,ERPNext에 오신 것을 환영합니다
+,Welcome to ERPV,ERPNext에 오신 것을 환영합니다
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,리드고객에게 견적?
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,이메일 미리 알림은 이메일 연락처가있는 모든 당사자에게 전송됩니다.
 DocType: Project,Twice Daily,매일 두 번
@@ -5778,7 +5778,7 @@ DocType: Account,Bank,은행
 DocType: Job Card,Job Started,직무 시작
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,항공 회사
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,문제의 소재
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,Shopify를 ERPNext와 연결하십시오.
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,Shopify를 ERPNext와 연결하십시오.
 DocType: Production Plan,For Warehouse,웨어 하우스
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,배송 노트 {0}이 업데이트되었습니다.
 DocType: Employee,Offer Date,제공 날짜
@@ -5903,7 +5903,7 @@ DocType: Leave Control Panel,Carry Forward,이월하다
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,기존의 트랜잭션 비용 센터 원장으로 변환 할 수 없습니다
 DocType: Budget,Applicable on booking actual expenses,실제 비용을 예약 할 때 적용 가능
 DocType: Department,Days for which Holidays are blocked for this department.,휴일이 부서 차단하는 일.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext 통합
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV 통합
 DocType: Crop Cycle,Detected Disease,발견 된 질병
 ,Produced,생산
 DocType: Issue,Raised By (Email),(이메일)에 의해 제기
@@ -6691,7 +6691,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,예상 도착 시간 계산
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,계정 : {0} 만 재고 거래를 통해 업데이트 할 수 있습니다
 DocType: Student Group Creation Tool,Get Courses,과정을 받으세요
-DocType: Tally Migration,ERPNext Company,ERPNext 회사
+DocType: Tally Migration,ERPV Company,ERPV 회사
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,파티
 DocType: Healthcare Settings,Patient Name,환자 이름
@@ -6870,7 +6870,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,평점 0 허용
 DocType: Bank Guarantee,Receiving,전수
 DocType: Training Event Employee,Invited,초대
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,설치 게이트웨이를 차지한다.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,ERPNext에 은행 계좌 연결
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,ERPNext에 은행 계좌 연결
 DocType: Employee,Employment Type,고용 유형
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,템플릿으로 프로젝트를 만듭니다.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,고정 자산

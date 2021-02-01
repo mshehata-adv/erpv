@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,原価計算と請求
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},事前勘定通貨は、会社通貨{0}と同じである必要があります。
 DocType: QuickBooks Migrator,Token Endpoint,トークンエンドポイント
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,アカウント{0}：親勘定{1}は元帳にすることができません
-DocType: Item,Publish Item to hub.erpnext.com,hub.erpnext.comにアイテムを発行
+DocType: Item,Publish Item to hub.erpv.advintic.com,hub.erpnext.comにアイテムを発行
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,有効期間を見つけることができません
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,評価
 DocType: Item,Default Unit of Measure,デフォルト数量単位
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,アイテムの重量の詳�
 DocType: Asset Maintenance Log,Periodicity,周期性
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,会計年度{0}が必要です
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,純利益/損失
-DocType: Employee Group Table,ERPNext User ID,ERPNextユーザーID
+DocType: Employee Group Table,ERPV User ID,ERPNextユーザーID
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,最適な成長のための植物の列間の最小距離
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,処方された処置を受けるために患者を選択してください
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,防御
@@ -484,7 +484,7 @@ DocType: Supplier Scorecard,Criteria Setup,条件設定
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,提出前に必要とされる倉庫用
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,受領日
 DocType: Codification Table,Medical Code,医療コード
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,AmazonとERPNextを接続する
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,AmazonとERPNextを接続する
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,お問い合わせ
 DocType: Delivery Note Item,Against Sales Invoice Item,対販売伝票アイテム
 DocType: Agriculture Analysis Criteria,Linked Doctype,リンクされたDoctype
@@ -741,7 +741,7 @@ DocType: POS Closing Voucher,Difference,差
 DocType: Delivery Settings,Delay between Delivery Stops,配達停止間の遅延
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},シリアル番号 {0} は納品書 {1} に記載がありません
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.",サーバーのGoCardless構成に問題があるようです。ご不便をおかけしても、ご返金いただけない場合は、お客様のアカウントに払い戻されます。
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNextデモ
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPNextデモ
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,アイテム追加
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,アイテム品質検査パラメータ
 DocType: Leave Application,Leave Approver Name,休暇承認者名
@@ -806,7 +806,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,最初の「会社」名を入力してください
 DocType: Travel Itinerary,Non-Vegetarian,非菜食主義者
 DocType: Purchase Invoice,Supplier Name,サプライヤー名
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,ERPNextマニュアルをご覧ください
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,ERPNextマニュアルをご覧ください
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,カレンダーのすべての部署メンバーの葉を表示する
 DocType: Purchase Invoice,01-Sales Return,01-セールスリターン
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,BOMラインごとの数量
@@ -1484,7 +1484,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,事務所維持費
 ,BOM Explorer,BOMエクスプローラ
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,移動
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,ShopifyからERPNext価格リストに更新
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,ShopifyからERPNext価格リストに更新
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,メールアカウント設定
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,最初のアイテムを入力してください
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,分析が必要
@@ -1611,7 +1611,7 @@ DocType: Fertilizer,Fertilizer Contents,肥料の内容
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,研究開発
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,支払額
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,支払条件に基づく
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,ERPNextの設定
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,ERPNextの設定
 DocType: Company,Registration Details,登録の詳細
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,サービスレベル契約{0}を設定できませんでした。
 DocType: Timesheet,Total Billed Amount,合計請求金額
@@ -1651,7 +1651,7 @@ DocType: Leave Type,Encashment Threshold Days,暗号化しきい値日数
 ,Final Assessment Grades,最終評価グレード
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,このシステムを設定する会社の名前
 DocType: HR Settings,Include holidays in Total no. of Working Days,営業日数に休日を含む
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,あなたの研究所をERPNextでセットアップする
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,あなたの研究所をERPNextでセットアップする
 DocType: Agriculture Analysis Criteria,Plant Analysis,植物分析
 DocType: Task,Timeline,タイムライン
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,保留
@@ -1731,7 +1731,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,仕入請求前払
 DocType: Shift Type,Every Valid Check-in and Check-out,有効なチェックインとチェックアウト
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},行{0}：貸方エントリは{1}とリンクすることができません
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,会計年度の予算を定義します。
-DocType: Shopify Tax Account,ERPNext Account,ERPNextアカウント
+DocType: Shopify Tax Account,ERPV Account,ERPNextアカウント
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,学年を入力し、開始日と終了日を設定します。
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,{0}はブロックされているため、このトランザクションは処理できません
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,累計予算がMRを超過した場合のアクション
@@ -1920,7 +1920,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,ストック元帳が登録されると固定資産項目にすることはできません。
 DocType: Subscription Plan,Fixed rate,固定金利
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,認める
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,デスクトップに移動しERPNextの使用を開始します
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,デスクトップに移動しERPNextの使用を開始します
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,残りの支払い
 DocType: Purchase Invoice Item,Manufacturer,製造元
 DocType: Landed Cost Item,Purchase Receipt Item,領収書アイテム
@@ -2108,7 +2108,7 @@ DocType: Employee Checkin,Shift End,シフト終了
 DocType: Stock Settings,Default Item Group,デフォルトアイテムグループ
 DocType: Job Card Time Log,Time In Mins,ミネアポリスの時間
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,助成金情報
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,この操作により、このアカウントはERPNextと銀行口座を統合している外部サービスからリンク解除されます。元に戻すことはできません。確実ですか？
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,この操作により、このアカウントはERPNextと銀行口座を統合している外部サービスからリンク解除されます。元に戻すことはできません。確実ですか？
 apps/erpnext/erpnext/config/buying.py,Supplier database.,サプライヤーデータベース
 DocType: Contract Template,Contract Terms and Conditions,契約条件
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,キャンセルされていないサブスクリプションを再起動することはできません。
@@ -2247,7 +2247,7 @@ DocType: Purchase Invoice,Rejected Warehouse,拒否された倉庫
 DocType: GL Entry,Against Voucher,対伝票
 DocType: Item Default,Default Buying Cost Center,デフォルト購入コストセンター
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,新しい支払い
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.",ERPNextを最大限に活用するために、少し時間を使ってヘルプ動画を見ることをお勧めします。
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.",ERPNextを最大限に活用するために、少し時間を使ってヘルプ動画を見ることをお勧めします。
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),デフォルトサプライヤ（オプション）
 DocType: Supplier Quotation Item,Lead Time in days,リードタイム日数
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),ターゲット（{}）
@@ -3996,7 +3996,7 @@ DocType: Quality Meeting,Agenda,議題
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,保守スケジュール詳細
 DocType: Supplier Scorecard,Warn for new Purchase Orders,新しい発注を警告する
 DocType: Quality Inspection Reading,Reading 9,報告要素9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,ExotelアカウントをERPNextに接続し、通話ログを追跡する
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,ExotelアカウントをERPNextに接続し、通話ログを追跡する
 DocType: Supplier,Is Frozen,凍結
 DocType: Tally Migration,Processed Files,処理済みファイル
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,グループノード倉庫が取引のために選択することが許可されていません
@@ -4147,7 +4147,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},発注{1}に対する{0}
 DocType: Patient,Patient Demographics,患者の人口統計
 DocType: Task,Actual Start Date (via Time Sheet),実際の開始日（勤務表による）
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,これはERPNextの自動生成ウェブサイトの例です。
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,これはERPNextの自動生成ウェブサイトの例です。
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,エイジングレンジ１
 DocType: Shopify Settings,Enable Shopify,Shopifyを有効にする
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,総引き出し額は、請求された金額の合計よりも大きくすることはできません
@@ -4497,7 +4497,7 @@ DocType: Work Order Operation,Planned Start Time,計画開始時間
 DocType: Course,Assessment,評価
 DocType: Payment Entry Reference,Allocated,割り当て済み
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,貸借対照表を閉じて損益を記帳
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNextが一致する支払いエントリを見つけることができませんでした
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPNextが一致する支払いエントリを見つけることができませんでした
 DocType: Student Applicant,Application Status,出願状況
 DocType: Additional Salary,Salary Component Type,給与コンポーネントタイプ
 DocType: Sensitivity Test Items,Sensitivity Test Items,感度試験項目
@@ -4835,7 +4835,7 @@ DocType: Department,Expense Approver,経費承認者
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,行{0}：お客様に対する事前クレジットでなければなりません
 DocType: Quality Meeting,Quality Meeting,質の高い会議
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,グループに非グループ
-DocType: Employee,ERPNext User,ERPNextユーザー
+DocType: Employee,ERPV User,ERPNextユーザー
 DocType: Coupon Code,Coupon Description,クーポンの説明
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},行{0}にバッチが必須です
 DocType: Company,Default Buying Terms,デフォルトの購入条件
@@ -5272,7 +5272,7 @@ DocType: Loyalty Point Entry,Redeem Against,償還
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,銀行・決済
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,APIコンシューマーキーを入力してください
 DocType: Issue,Service Level Agreement Fulfilled,達成されたサービスレベル契約
-,Welcome to ERPNext,ERPNextへようこそ
+,Welcome to ERPV,ERPNextへようこそ
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,見積へのリード
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,電子メールリマインダは、電子メールの連絡先を持つすべての当事者に送信されます
 DocType: Project,Twice Daily,1日2回
@@ -5742,7 +5742,7 @@ DocType: Account,Bank,銀行
 DocType: Job Card,Job Started,仕事は始めました
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,航空会社
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,資材課題
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,ShopifyをERPNextと接続する
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,ShopifyをERPNextと接続する
 DocType: Production Plan,For Warehouse,倉庫用
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,納品書{0}が更新されました
 DocType: Employee,Offer Date,雇用契約日
@@ -5865,7 +5865,7 @@ DocType: Leave Control Panel,Carry Forward,繰り越す
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,既存の取引があるコストセンターは、元帳に変換することはできません
 DocType: Budget,Applicable on booking actual expenses,実費を予約する場合に適用
 DocType: Department,Days for which Holidays are blocked for this department.,この部門のために休暇期間指定されている日
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNextの統合
+DocType: Amazon MWS Settings,ERPV Integrations,ERPNextの統合
 DocType: Crop Cycle,Detected Disease,検出された病気
 ,Produced,生産
 DocType: Issue,Raised By (Email),提起元メールアドレス
@@ -6644,7 +6644,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,予定到着時間計算
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,アカウント：{0}のみ株式取引を介して更新することができます
 DocType: Student Group Creation Tool,Get Courses,コースを取得
-DocType: Tally Migration,ERPNext Company,ERPネクストカンパニー
+DocType: Tally Migration,ERPV Company,ERPネクストカンパニー
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,当事者
 DocType: Healthcare Settings,Patient Name,患者名
@@ -6820,7 +6820,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,ゼロ評価レート�
 DocType: Bank Guarantee,Receiving,受信
 DocType: Training Event Employee,Invited,招待済
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,ゲートウェイアカウントを設定
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,銀行口座をERPNextに接続する
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,銀行口座をERPNextに接続する
 DocType: Employee,Employment Type,雇用の種類
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,テンプレートからプロジェクトを作成します。
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,固定資産

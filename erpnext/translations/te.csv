@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,ఖర్చయ్యే బిల్లి
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},అడ్వాన్స్ ఖాతా కరెన్సీ కంపెనీ కరెన్సీ వలె ఉండాలి. {0}
 DocType: QuickBooks Migrator,Token Endpoint,టోకెన్ ముగింపు
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,ఖాతా {0}: మాతృ ఖాతా {1} ఒక లెడ్జర్ ఉండకూడదు
-DocType: Item,Publish Item to hub.erpnext.com,Hub.erpnext.com అంశం ప్రచురించు
+DocType: Item,Publish Item to hub.erpv.advintic.com,Hub.erpv.advintic.com అంశం ప్రచురించు
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,క్రియాశీల సెలవు సమయాన్ని కనుగొనలేకపోయాము
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,మూల్యాంకనం
 DocType: Item,Default Unit of Measure,మెజర్ డిఫాల్ట్ యూనిట్
@@ -144,7 +144,7 @@ DocType: Purchase Invoice Item,Item Weight Details,అంశం బరువు 
 DocType: Asset Maintenance Log,Periodicity,ఆవర్తకత
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,ఫిస్కల్ ఇయర్ {0} అవసరం
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,నికర లాభం / నష్టం
-DocType: Employee Group Table,ERPNext User ID,ERPNext యూజర్ ID
+DocType: Employee Group Table,ERPV User ID,ERPV యూజర్ ID
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,వాంఛనీయ వృద్ధి కోసం మొక్కల వరుసల మధ్య కనీస దూరం
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,సూచించిన విధానాన్ని పొందడానికి రోగిని ఎంచుకోండి
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,రక్షణ
@@ -478,7 +478,7 @@ DocType: Supplier Scorecard,Criteria Setup,ప్రమాణం సెటప్
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,వేర్హౌస్ కోసం సమర్పించు ముందు అవసరం
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,అందుకున్న
 DocType: Codification Table,Medical Code,మెడికల్ కోడ్
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,ERPNext తో అమెజాన్ కనెక్ట్ చేయండి
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,ERPV తో అమెజాన్ కనెక్ట్ చేయండి
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,మమ్మల్ని సంప్రదించండి
 DocType: Delivery Note Item,Against Sales Invoice Item,సేల్స్ వాయిస్ అంశం వ్యతిరేకంగా
 DocType: Agriculture Analysis Criteria,Linked Doctype,లింక్ చేసిన డాక్టప్
@@ -729,7 +729,7 @@ DocType: POS Closing Voucher,Difference,తేడా
 DocType: Delivery Settings,Delay between Delivery Stops,డెలివరీ స్టాప్స్ మధ్య ఆలస్యం
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},సీరియల్ లేవు {0} డెలివరీ గమనిక చెందినది కాదు {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","సర్వర్ యొక్క GoCardless ఆకృతీకరణతో సమస్య ఉన్నట్లుంది. చింతించకండి, వైఫల్యం విషయంలో, మీ ఖాతాకు మొత్తం తిరిగి చెల్లించబడుతుంది."
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext డెమో
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV డెమో
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,అంశాలు జోడించండి
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,అంశం నాణ్యత తనిఖీ పారామిత
 DocType: Leave Application,Leave Approver Name,అప్రూవర్గా వదిలి పేరు
@@ -795,7 +795,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,మొదటి కంపెనీ పేరును నమోదు చేయండి
 DocType: Travel Itinerary,Non-Vegetarian,బోథ్
 DocType: Purchase Invoice,Supplier Name,సరఫరా చేయువాని పేరు
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,ERPNext మాన్యువల్ చదువు
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,ERPV మాన్యువల్ చదువు
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,క్యాలెండర్లో అన్ని డిపార్ట్మెంట్ సభ్యుల ఆకులు చూపించు
 DocType: Purchase Invoice,01-Sales Return,01-సేల్స్ రిటర్న్
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,ప్రతి BOM లైన్‌కు Qty
@@ -1440,7 +1440,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,ఆఫీసు నిర్వహణ ఖర్చులు
 ,BOM Explorer,BOM ఎక్స్ప్లోరర్
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,వెళ్ళండి
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,ERPNext ధర జాబితాకు Shopify నుండి ధరను నవీకరించండి
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,ERPV ధర జాబితాకు Shopify నుండి ధరను నవీకరించండి
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,ఇమెయిల్ ఖాతా ఏర్పాటు
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,మొదటి అంశం నమోదు చేయండి
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,విశ్లేషణ అవసరాలు
@@ -1567,7 +1567,7 @@ DocType: Fertilizer,Fertilizer Contents,ఎరువులు
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,రీసెర్చ్ &amp; డెవలప్మెంట్
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,బిల్ మొత్తం
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,చెల్లింపు నిబంధనల ఆధారంగా
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,ERPNext సెట్టింగులు
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,ERPV సెట్టింగులు
 DocType: Company,Registration Details,నమోదు వివరాలు
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,సేవా స్థాయి ఒప్పందాన్ని సెట్ చేయలేకపోయింది {0}.
 DocType: Timesheet,Total Billed Amount,మొత్తం కస్టమర్లకు మొత్తం
@@ -1607,7 +1607,7 @@ DocType: Leave Type,Encashment Threshold Days,ఎన్క్యాష్మె�
 ,Final Assessment Grades,ఫైనల్ అసెస్మెంట్ గ్రేడ్స్
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,మీ కంపెనీ పేరు ఇది కోసం మీరు ఈ వ్యవస్థ ఏర్పాటు.
 DocType: HR Settings,Include holidays in Total no. of Working Days,ఏ మొత్తం లో సెలవులు చేర్చండి. వర్కింగ్ డేస్
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,ERPNext లో మీ ఇన్స్టిట్యూట్ సెటప్ చేయండి
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,ERPV లో మీ ఇన్స్టిట్యూట్ సెటప్ చేయండి
 DocType: Agriculture Analysis Criteria,Plant Analysis,ప్లాంట్ విశ్లేషణ
 DocType: Task,Timeline,కాలక్రమం
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,హోల్డ్
@@ -1685,7 +1685,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,వాయిస్ �
 DocType: Shift Type,Every Valid Check-in and Check-out,ప్రతి చెల్లుబాటు అయ్యే చెక్-ఇన్ మరియు చెక్-అవుట్
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},రో {0}: క్రెడిట్ ఎంట్రీ తో జతచేయవచ్చు ఒక {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,ఆర్థిక సంవత్సరం బడ్జెట్లో నిర్వచించండి.
-DocType: Shopify Tax Account,ERPNext Account,ERPNext ఖాతా
+DocType: Shopify Tax Account,ERPV Account,ERPV ఖాతా
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,విద్యా సంవత్సరాన్ని అందించండి మరియు ప్రారంభ మరియు ముగింపు తేదీని సెట్ చేయండి.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,"{0} నిరోధించబడింది, కాబట్టి ఈ లావాదేవీ కొనసాగలేరు"
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,ఎంఆర్లో మినహాయించబడిన నెలవారీ బడ్జెట్ను తీసుకున్నట్లయితే చర్య
@@ -1873,7 +1873,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,స్టాక్ లెడ్జర్ సృష్టించబడిన స్థిరమైన ఆస్తి అంశం కాదు.
 DocType: Subscription Plan,Fixed rate,స్థిర ధర
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,ఒప్పుకుంటే
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,డెస్క్టాప్ వెళ్ళండి మరియు ERPNext ఉపయోగించడం ప్రారంభించడానికి
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,డెస్క్టాప్ వెళ్ళండి మరియు ERPV ఉపయోగించడం ప్రారంభించడానికి
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,మిగిలినవి చెల్లించండి
 DocType: Purchase Invoice Item,Manufacturer,తయారీదారు
 DocType: Landed Cost Item,Purchase Receipt Item,కొనుగోలు రసీదులు అంశం
@@ -2058,7 +2058,7 @@ DocType: Employee Checkin,Shift End,షిఫ్ట్ ఎండ్
 DocType: Stock Settings,Default Item Group,డిఫాల్ట్ అంశం గ్రూప్
 DocType: Job Card Time Log,Time In Mins,నిమిషాలలో సమయం
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,సమాచారం ఇవ్వండి.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,ఈ చర్య మీ బ్యాంక్ ఖాతాలతో ERPNext ను సమగ్రపరిచే ఏదైనా బాహ్య సేవ నుండి ఈ ఖాతాను అన్‌లింక్ చేస్తుంది. దీన్ని రద్దు చేయలేము. మీరు ఖచ్చితంగా ఉన్నారా?
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,ఈ చర్య మీ బ్యాంక్ ఖాతాలతో ERPV ను సమగ్రపరిచే ఏదైనా బాహ్య సేవ నుండి ఈ ఖాతాను అన్‌లింక్ చేస్తుంది. దీన్ని రద్దు చేయలేము. మీరు ఖచ్చితంగా ఉన్నారా?
 apps/erpnext/erpnext/config/buying.py,Supplier database.,సరఫరాదారు డేటాబేస్.
 DocType: Contract Template,Contract Terms and Conditions,కాంట్రాక్ట్ నిబంధనలు మరియు షరతులు
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,మీరు రద్దు చేయని సభ్యత్వాన్ని పునఃప్రారంభించలేరు.
@@ -2197,7 +2197,7 @@ DocType: Purchase Invoice,Rejected Warehouse,తిరస్కరించబ�
 DocType: GL Entry,Against Voucher,ఓచర్ వ్యతిరేకంగా
 DocType: Item Default,Default Buying Cost Center,డిఫాల్ట్ కొనుగోలు ఖర్చు సెంటర్
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,కొత్త చెల్లింపు
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","ERPNext యొక్క ఉత్తమ పొందడానికి, మేము మీరు కొంత సమయం తీసుకొని ఈ సహాయ వీడియోలను చూడటానికి సిఫార్సు చేస్తున్నాము."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","ERPV యొక్క ఉత్తమ పొందడానికి, మేము మీరు కొంత సమయం తీసుకొని ఈ సహాయ వీడియోలను చూడటానికి సిఫార్సు చేస్తున్నాము."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),డిఫాల్ట్ సరఫరాదారు (ఐచ్ఛిక) కోసం
 DocType: Supplier Quotation Item,Lead Time in days,రోజుల్లో ప్రధాన సమయం
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),లక్ష్యం ({})
@@ -3925,7 +3925,7 @@ DocType: Quality Meeting,Agenda,అజెండా
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,నిర్వహణ షెడ్యూల్ వివరాలు
 DocType: Supplier Scorecard,Warn for new Purchase Orders,కొత్త కొనుగోలు ఆర్డర్లు కోసం హెచ్చరించండి
 DocType: Quality Inspection Reading,Reading 9,9 పఠనం
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,మీ ఎక్సోటెల్ ఖాతాను ERPNext కు కనెక్ట్ చేయండి మరియు కాల్ లాగ్‌లను ట్రాక్ చేయండి
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,మీ ఎక్సోటెల్ ఖాతాను ERPV కు కనెక్ట్ చేయండి మరియు కాల్ లాగ్‌లను ట్రాక్ చేయండి
 DocType: Supplier,Is Frozen,ఘనీభవించిన
 DocType: Tally Migration,Processed Files,ప్రాసెస్ చేసిన ఫైళ్ళు
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,గ్రూప్ నోడ్ గిడ్డంగిలో లావాదేవీలకు ఎంచుకోండి అనుమతి లేదు
@@ -4075,7 +4075,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} కొనుగోలు ఆర్డర్ వ్యతిరేకంగా {1}
 DocType: Patient,Patient Demographics,పేషెంట్ డెమోగ్రాఫిక్స్
 DocType: Task,Actual Start Date (via Time Sheet),వాస్తవాధీన ప్రారంభ తేదీ (సమయం షీట్ ద్వారా)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,ఈ ఒక ఉదాహరణ వెబ్సైట్ ERPNext నుండి ఆటో ఉత్పత్తి ఉంది
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,ఈ ఒక ఉదాహరణ వెబ్సైట్ ERPV నుండి ఆటో ఉత్పత్తి ఉంది
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,ఏజింగ్ రేంజ్ 1
 DocType: Shopify Settings,Enable Shopify,Shopify ని ప్రారంభించండి
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,మొత్తం ముందుగా ఉన్న మొత్తాన్ని కన్నా మొత్తం ముందస్తు మొత్తం ఎక్కువగా ఉండకూడదు
@@ -4394,7 +4394,7 @@ DocType: Work Order Operation,Planned Start Time,అనుకున్న ప్
 DocType: Course,Assessment,అసెస్మెంట్
 DocType: Payment Entry Reference,Allocated,కేటాయించిన
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,Close బ్యాలెన్స్ షీట్ మరియు పుస్తకం లాభం లేదా నష్టం.
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext సరిపోయే చెల్లింపు ఎంట్రీని కనుగొనలేకపోయింది
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPV సరిపోయే చెల్లింపు ఎంట్రీని కనుగొనలేకపోయింది
 DocType: Student Applicant,Application Status,ధరఖాస్తు
 DocType: Additional Salary,Salary Component Type,జీతం కాంపోనెంట్ టైప్
 DocType: Sensitivity Test Items,Sensitivity Test Items,సున్నితత్వం టెస్ట్ అంశాలు
@@ -4715,7 +4715,7 @@ DocType: Department,Expense Approver,ఖర్చుల అప్రూవర్
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,రో {0}: కస్టమర్ వ్యతిరేకంగా అడ్వాన్స్ క్రెడిట్ ఉండాలి
 DocType: Quality Meeting,Quality Meeting,నాణ్యమైన సమావేశం
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,కాని గ్రూపుకు గ్రూప్
-DocType: Employee,ERPNext User,ERPNext వాడుకరి
+DocType: Employee,ERPV User,ERPV వాడుకరి
 DocType: Coupon Code,Coupon Description,కూపన్ వివరణ
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},బ్యాచ్ వరుసగా తప్పనిసరి {0}
 DocType: Company,Default Buying Terms,డిఫాల్ట్ కొనుగోలు నిబంధనలు
@@ -5147,7 +5147,7 @@ DocType: Loyalty Point Entry,Redeem Against,విమోచన వ్యతి�
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,బ్యాంకింగ్ మరియు చెల్లింపులు
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,దయచేసి API వినియోగదారు కీని నమోదు చేయండి
 DocType: Issue,Service Level Agreement Fulfilled,సేవా స్థాయి ఒప్పందం నెరవేరింది
-,Welcome to ERPNext,ERPNext కు స్వాగతం
+,Welcome to ERPV,ERPV కు స్వాగతం
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,కొటేషన్ దారి
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,ఇమెయిల్ రిమైండర్లు ఇమెయిల్ సంపర్కాలతో అన్ని పార్టీలకు పంపబడతాయి
 DocType: Project,Twice Daily,రోజుకి రెండుసార్లు
@@ -5608,7 +5608,7 @@ DocType: Account,Bank,బ్యాంక్
 DocType: Job Card,Job Started,ఉద్యోగం ప్రారంభమైంది
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,వైనానిక
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,ఇష్యూ మెటీరియల్
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,ERPNext తో Shopify ను కనెక్ట్ చేయండి
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,ERPV తో Shopify ను కనెక్ట్ చేయండి
 DocType: Production Plan,For Warehouse,వేర్హౌస్ కోసం
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,డెలివరీ గమనికలు {0} నవీకరించబడ్డాయి
 DocType: Employee,Offer Date,ఆఫర్ తేదీ
@@ -5732,7 +5732,7 @@ DocType: Leave Control Panel,Carry Forward,కుంటున్న
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,ఉన్న లావాదేవీలతో ఖర్చు సెంటర్ లెడ్జర్ మార్చబడతాయి కాదు
 DocType: Budget,Applicable on booking actual expenses,అసలు ఖర్చులను బుక్ చేయడంలో వర్తించబడుతుంది
 DocType: Department,Days for which Holidays are blocked for this department.,రోజులు సెలవులు ఈ విభాగం కోసం బ్లాక్ చేయబడతాయి.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext ఇంటిగ్రేషన్లు
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV ఇంటిగ్రేషన్లు
 DocType: Crop Cycle,Detected Disease,గుర్తించిన వ్యాధి
 ,Produced,ఉత్పత్తి
 DocType: Issue,Raised By (Email),లేవనెత్తారు (ఇమెయిల్)
@@ -6505,7 +6505,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,అంచనావేయబడిన రాకపోకల టైములను లెక్కించండి
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,ఖాతా: {0} మాత్రమే స్టాక్ లావాదేవీలు ద్వారా నవీకరించబడింది చేయవచ్చు
 DocType: Student Group Creation Tool,Get Courses,కోర్సులు పొందండి
-DocType: Tally Migration,ERPNext Company,ERPNext కంపెనీ
+DocType: Tally Migration,ERPV Company,ERPV కంపెనీ
 DocType: Shopify Settings,Webhooks,webhooks
 DocType: Bank Account,Party,పార్టీ
 DocType: Healthcare Settings,Patient Name,పేషంట్ పేరు
@@ -6680,7 +6680,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,అనుమతిం�
 DocType: Bank Guarantee,Receiving,స్వీకరిస్తోంది
 DocType: Training Event Employee,Invited,ఆహ్వానించారు
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,సెటప్ గేట్వే ఖాతాలు.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,మీ బ్యాంక్ ఖాతాలను ERPNext కు కనెక్ట్ చేయండి
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,మీ బ్యాంక్ ఖాతాలను ERPV కు కనెక్ట్ చేయండి
 DocType: Employee,Employment Type,ఉపాధి రకం
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,ఒక టెంప్లేట్ నుండి ప్రాజెక్ట్ చేయండి.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,స్థిర ఆస్తులు

@@ -20,7 +20,7 @@ DocType: Project,Costing and Billing,Biaya dan Penagihan
 apps/erpnext/erpnext/hr/doctype/employee_advance/employee_advance.py,Advance account currency should be same as company currency {0},Mata uang akun muka harus sama dengan mata uang perusahaan {0}
 DocType: QuickBooks Migrator,Token Endpoint,Token Endpoint
 apps/erpnext/erpnext/accounts/doctype/account/account.py,Account {0}: Parent account {1} can not be a ledger,Akun {0}: akun Induk {1} tidak dapat berupa buku besar
-DocType: Item,Publish Item to hub.erpnext.com,Publikasikan Item untuk hub.erpnext.com
+DocType: Item,Publish Item to hub.erpv.advintic.com,Publikasikan Item untuk hub.erpv.advintic.com
 apps/erpnext/erpnext/hr/doctype/leave_application/leave_application.py,Cannot find active Leave Period,Tidak dapat menemukan Periode Keluar aktif
 apps/erpnext/erpnext/hr/doctype/employee/employee_dashboard.py,Evaluation,Evaluasi
 DocType: Item,Default Unit of Measure,Standar Satuan Ukur
@@ -147,7 +147,7 @@ DocType: Purchase Invoice Item,Item Weight Details,Rincian Berat Item
 DocType: Asset Maintenance Log,Periodicity,Periode
 apps/erpnext/erpnext/accounts/report/trial_balance/trial_balance.py,Fiscal Year {0} is required,Tahun fiskal {0} diperlukan
 apps/erpnext/erpnext/accounts/report/profit_and_loss_statement/profit_and_loss_statement.py,Net Profit/Loss,Laba / Rugi Bersih
-DocType: Employee Group Table,ERPNext User ID,ID Pengguna ERPNext
+DocType: Employee Group Table,ERPV User ID,ID Pengguna ERPV
 DocType: Crop Cycle,The minimum distance between rows of plants for optimum growth,Jarak minimum antara deretan tanaman untuk pertumbuhan optimum
 apps/erpnext/erpnext/healthcare/doctype/patient_appointment/patient_appointment.js,Please select Patient to get prescribed procedure,Silakan pilih Pasien untuk mendapatkan prosedur yang ditentukan
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Defense,Pertahanan
@@ -484,7 +484,7 @@ DocType: Supplier Scorecard,Criteria Setup,Setup kriteria
 apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py,For Warehouse is required before Submit,Untuk Gudang diperlukan sebelum Submit
 apps/erpnext/erpnext/accounts/print_format/payment_receipt_voucher/payment_receipt_voucher.html,Received On,Diterima pada
 DocType: Codification Table,Medical Code,Kode medis
-apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPNext,Hubungkan Amazon dengan ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Amazon with ERPV,Hubungkan Amazon dengan ERPV
 apps/erpnext/erpnext/templates/generators/item/item_configure.html,Contact Us,Hubungi kami
 DocType: Delivery Note Item,Against Sales Invoice Item,Terhadap Barang di Faktur Penjualan
 DocType: Agriculture Analysis Criteria,Linked Doctype,Linked Doctype
@@ -740,7 +740,7 @@ DocType: POS Closing Voucher,Difference,Perbedaan
 DocType: Delivery Settings,Delay between Delivery Stops,Penundaan antara Stop Pengiriman
 apps/erpnext/erpnext/selling/doctype/installation_note/installation_note.py,Serial No {0} does not belong to Delivery Note {1},Serial ada {0} bukan milik Pengiriman Note {1}
 apps/erpnext/erpnext/erpnext_integrations/doctype/gocardless_settings/gocardless_settings.py,"There seems to be an issue with the server's GoCardless configuration. Don't worry, in case of failure, the amount will get refunded to your account.","Sepertinya ada masalah dengan konfigurasi GoCardless server. Jangan khawatir, jika terjadi kegagalan, jumlah itu akan dikembalikan ke akun Anda."
-apps/erpnext/erpnext/templates/pages/demo.html,ERPNext Demo,ERPNext Demo
+apps/erpnext/erpnext/templates/pages/demo.html,ERPV Demo,ERPV Demo
 apps/erpnext/erpnext/public/js/utils/item_selector.js,Add Items,Tambahkan Item
 DocType: Item Quality Inspection Parameter,Item Quality Inspection Parameter,Stok Barang Kualitas Parameter Inspeksi
 DocType: Leave Application,Leave Approver Name,Nama Approver Cuti
@@ -805,7 +805,7 @@ apps/erpnext/erpnext/accounts/doctype/sales_invoice/sales_invoice.py,Company cur
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.js,Please enter company name first,Silahkan masukkan nama perusahaan terlebih dahulu
 DocType: Travel Itinerary,Non-Vegetarian,Bukan vegetarian
 DocType: Purchase Invoice,Supplier Name,Nama Supplier
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPNext Manual,Baca Pedoman ERPNEXT
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Read the ERPV Manual,Baca Pedoman ERPNEXT
 DocType: HR Settings,Show Leaves Of All Department Members In Calendar,Tampilkan Cuti Dari Semua Anggota Departemen Dalam Kalender
 DocType: Purchase Invoice,01-Sales Return,01-Pemgembalian Penjualan
 apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,Qty per BOM Line,Qty per BOM Line
@@ -1457,7 +1457,7 @@ apps/erpnext/erpnext/stock/doctype/stock_entry/stock_entry.py,"Item {0} (Serial 
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Office Maintenance Expenses,Beban Pemeliharaan Kantor
 ,BOM Explorer,BOM Explorer
 apps/erpnext/erpnext/utilities/user_progress.py,Go to ,Pergi ke
-DocType: Shopify Settings,Update Price from Shopify To ERPNext Price List,Perbarui Harga dari Shopify Ke Daftar Harga ERPNext
+DocType: Shopify Settings,Update Price from Shopify To ERPV Price List,Perbarui Harga dari Shopify Ke Daftar Harga ERPV
 apps/erpnext/erpnext/config/help.py,Setting up Email Account,Mengatur Akun Email
 apps/erpnext/erpnext/manufacturing/doctype/production_plan/production_plan.js,Please enter Item first,Entrikan Stok Barang terlebih dahulu
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Needs Analysis,Butuh analisa
@@ -1584,7 +1584,7 @@ DocType: Fertilizer,Fertilizer Contents,Isi pupuk
 apps/erpnext/erpnext/setup/setup_wizard/operations/install_fixtures.py,Research & Development,Penelitian & Pengembangan
 apps/erpnext/erpnext/accounts/report/purchase_order_items_to_be_billed/purchase_order_items_to_be_billed.py,Amount to Bill,Nilai Tertagih
 apps/erpnext/erpnext/accounts/report/accounts_receivable/accounts_receivable.js,Based On Payment Terms,Berdasarkan Ketentuan Pembayaran
-apps/erpnext/erpnext/config/settings.py,ERPNext Settings,Pengaturan ERPN
+apps/erpnext/erpnext/config/settings.py,ERPV Settings,Pengaturan ERPN
 DocType: Company,Registration Details,Detail Pendaftaran
 apps/erpnext/erpnext/support/doctype/issue/issue.py,Couldn't Set Service Level Agreement {0}.,Tidak Dapat Menetapkan Perjanjian Tingkat Layanan {0}.
 DocType: Timesheet,Total Billed Amount,Jumlah Total Ditagih
@@ -1624,7 +1624,7 @@ DocType: Leave Type,Encashment Threshold Days,Hari Ambang Penyandian
 ,Final Assessment Grades,Penilaian Akhir Kelas
 apps/erpnext/erpnext/public/js/setup_wizard.js,The name of your company for which you are setting up this system.,Nama perusahaan Anda yang Anda sedang mengatur sistem ini.
 DocType: HR Settings,Include holidays in Total no. of Working Days,Sertakan Hari Libur di total no. dari Hari Kerja
-apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPNext,Siapkan Institut Anda di ERPNext
+apps/erpnext/erpnext/setup/setup_wizard/operations/sample_data.py,Setup your Institute in ERPV,Siapkan Institut Anda di ERPV
 DocType: Agriculture Analysis Criteria,Plant Analysis,Analisis Tanaman
 DocType: Task,Timeline,Garis waktu
 apps/erpnext/erpnext/buying/doctype/purchase_order/purchase_order.js,Hold,Ditahan
@@ -1704,7 +1704,7 @@ DocType: Purchase Invoice Advance,Purchase Invoice Advance,Uang Muka Faktur Pemb
 DocType: Shift Type,Every Valid Check-in and Check-out,Setiap check-in dan check-out yang valid
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Credit entry can not be linked with a {1},Baris {0}: entry Kredit tidak dapat dihubungkan dengan {1}
 apps/erpnext/erpnext/config/accounting.py,Define budget for a financial year.,Tentukan anggaran untuk tahun keuangan.
-DocType: Shopify Tax Account,ERPNext Account,Akun ERPNext
+DocType: Shopify Tax Account,ERPV Account,Akun ERPV
 apps/erpnext/erpnext/education/doctype/student_report_generation_tool/student_report_generation_tool.py,Provide the academic year and set the starting and ending date.,Berikan tahun akademik dan tetapkan tanggal mulai dan berakhir.
 apps/erpnext/erpnext/controllers/accounts_controller.py,{0} is blocked so this transaction cannot proceed,{0} diblokir sehingga transaksi ini tidak dapat dilanjutkan
 DocType: Budget,Action if Accumulated Monthly Budget Exceeded on MR,Tindakan jika Akumulasi Anggaran Bulanan Melebihi MR
@@ -1893,7 +1893,7 @@ apps/erpnext/erpnext/selling/page/point_of_sale/point_of_sale.js,Please select a
 apps/erpnext/erpnext/stock/doctype/item/item.py,Cannot be a fixed asset item as Stock Ledger is created.,Tidak dapat menjadi item aset tetap karena Stock Ledger dibuat.
 DocType: Subscription Plan,Fixed rate,Suku bunga tetap
 apps/erpnext/erpnext/healthcare/doctype/inpatient_record/inpatient_record.js,Admit,Mengakui
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPNext,Pergi ke Desktop dan mulai menggunakan ERPNext
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,Go to the Desktop and start using ERPV,Pergi ke Desktop dan mulai menggunakan ERPV
 apps/erpnext/erpnext/templates/pages/order.js,Pay Remaining,Bayar Sisa
 DocType: Purchase Invoice Item,Manufacturer,Pabrikasi
 DocType: Landed Cost Item,Purchase Receipt Item,Nota Penerimaan Stok Barang
@@ -2081,7 +2081,7 @@ DocType: Employee Checkin,Shift End,Shift End
 DocType: Stock Settings,Default Item Group,Standar Item Grup
 DocType: Job Card Time Log,Time In Mins,Time In Mins
 apps/erpnext/erpnext/config/non_profit.py,Grant information.,Berikan informasi.
-apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPNext with your bank accounts. It cannot be undone. Are you certain ?,Tindakan ini akan memutuskan tautan akun ini dari layanan eksternal yang mengintegrasikan ERPNext dengan rekening bank Anda. Itu tidak bisa diurungkan. Apakah Anda yakin ?
+apps/erpnext/erpnext/accounts/doctype/bank_account/bank_account.js,This action will unlink this account from any external service integrating ERPV with your bank accounts. It cannot be undone. Are you certain ?,Tindakan ini akan memutuskan tautan akun ini dari layanan eksternal yang mengintegrasikan ERPV dengan rekening bank Anda. Itu tidak bisa diurungkan. Apakah Anda yakin ?
 apps/erpnext/erpnext/config/buying.py,Supplier database.,Database Supplier.
 DocType: Contract Template,Contract Terms and Conditions,Syarat dan Ketentuan Kontrak
 apps/erpnext/erpnext/accounts/doctype/subscription/subscription.py,You cannot restart a Subscription that is not cancelled.,Anda tidak dapat memulai ulang Langganan yang tidak dibatalkan.
@@ -2220,7 +2220,7 @@ DocType: Purchase Invoice,Rejected Warehouse,Gudang Reject
 DocType: GL Entry,Against Voucher,Terhadap Voucher
 DocType: Item Default,Default Buying Cost Center,Standar Biaya Pusat Pembelian
 apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_transaction_row.html,New Payment,Pembayaran Baru
-apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPNext, we recommend that you take some time and watch these help videos.","Untuk mendapatkan yang terbaik dari ERPNext, kami menyarankan Anda mengambil beberapa waktu dan menonton video ini membantu."
+apps/erpnext/erpnext/setup/page/welcome_to_erpnext/welcome_to_erpnext.html,"To get the best out of ERPV, we recommend that you take some time and watch these help videos.","Untuk mendapatkan yang terbaik dari ERPV, kami menyarankan Anda mengambil beberapa waktu dan menonton video ini membantu."
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,For Default Supplier (optional),Untuk Pemasok Default (opsional)
 DocType: Supplier Quotation Item,Lead Time in days,Masa Tenggang dalam hari
 apps/erpnext/erpnext/selling/report/sales_partner_target_variance_based_on_item_group/item_group_wise_sales_target_variance.py,Target ({}),Target ({})
@@ -3967,7 +3967,7 @@ DocType: Quality Meeting,Agenda,Jadwal acara
 DocType: Maintenance Schedule Detail,Maintenance Schedule Detail,Jadwal pemeliharaan Detil
 DocType: Supplier Scorecard,Warn for new Purchase Orders,Peringatkan untuk Pesanan Pembelian baru
 DocType: Quality Inspection Reading,Reading 9,Membaca 9
-apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPNext and track call logs,Hubungkan Akun Exotel Anda ke ERPNext dan lacak log panggilan
+apps/erpnext/erpnext/config/integrations.py,Connect your Exotel Account to ERPV and track call logs,Hubungkan Akun Exotel Anda ke ERPV dan lacak log panggilan
 DocType: Supplier,Is Frozen,Dibekukan
 DocType: Tally Migration,Processed Files,File yang Diproses
 apps/erpnext/erpnext/stock/utils.py,Group node warehouse is not allowed to select for transactions,gudang kelompok simpul tidak diperbolehkan untuk memilih untuk transaksi
@@ -4118,7 +4118,7 @@ DocType: Sales Partner,A third party distributor / dealer / commission agent / a
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,{0} against Purchase Order {1},{0} terhadap Purchase Order {1}
 DocType: Patient,Patient Demographics,Demografi pasien
 DocType: Task,Actual Start Date (via Time Sheet),Aktual Mulai Tanggal (via Waktu Lembar)
-apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPNext,Ini adalah situs contoh auto-dihasilkan dari ERPNext
+apps/erpnext/erpnext/portal/doctype/homepage/homepage.py,This is an example website auto-generated from ERPV,Ini adalah situs contoh auto-dihasilkan dari ERPV
 apps/erpnext/erpnext/accounts/report/accounts_payable/accounts_payable.js,Ageing Range 1,Rentang Umur 1
 DocType: Shopify Settings,Enable Shopify,Aktifkan Shopify
 apps/erpnext/erpnext/hr/doctype/expense_claim/expense_claim.py,Total advance amount cannot be greater than total claimed amount,Jumlah uang muka total tidak boleh lebih besar dari jumlah total yang diklaim
@@ -4463,7 +4463,7 @@ DocType: Work Order Operation,Planned Start Time,Rencana Start Time
 DocType: Course,Assessment,Penilaian
 DocType: Payment Entry Reference,Allocated,Dialokasikan
 apps/erpnext/erpnext/config/accounting.py,Close Balance Sheet and book Profit or Loss.,Tutup Neraca dan Perhitungan Laba Rugi atau buku.
-apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPNext could not find any matching payment entry,ERPNext tidak dapat menemukan entri pembayaran yang cocok
+apps/erpnext/erpnext/accounts/page/bank_reconciliation/bank_reconciliation.js,ERPV could not find any matching payment entry,ERPV tidak dapat menemukan entri pembayaran yang cocok
 DocType: Student Applicant,Application Status,Status aplikasi
 DocType: Additional Salary,Salary Component Type,Tipe Komponen Gaji
 DocType: Sensitivity Test Items,Sensitivity Test Items,Item Uji Sensitivitas
@@ -4790,7 +4790,7 @@ DocType: Department,Expense Approver,Approver Klaim Biaya
 apps/erpnext/erpnext/accounts/doctype/journal_entry/journal_entry.py,Row {0}: Advance against Customer must be credit,Baris {0}: Uang muka dari Pelanggan harus kredit
 DocType: Quality Meeting,Quality Meeting,Rapat Kualitas
 apps/erpnext/erpnext/accounts/doctype/account/account.js,Non-Group to Group,Non-Group untuk Grup
-DocType: Employee,ERPNext User,Pengguna ERPNext
+DocType: Employee,ERPV User,Pengguna ERPV
 DocType: Coupon Code,Coupon Description,Deskripsi Kupon
 apps/erpnext/erpnext/education/doctype/student_group_creation_tool/student_group_creation_tool.py,Batch is mandatory in row {0},Batch wajib di baris {0}
 DocType: Company,Default Buying Terms,Ketentuan Pembelian Default
@@ -5227,7 +5227,7 @@ DocType: Loyalty Point Entry,Redeem Against,Redeem Against
 apps/erpnext/erpnext/config/accounting.py,Banking and Payments,Perbankan dan Pembayaran
 apps/erpnext/erpnext/erpnext_integrations/doctype/woocommerce_settings/woocommerce_settings.py,Please enter API Consumer Key,Silakan masukkan Kunci Konsumen API
 DocType: Issue,Service Level Agreement Fulfilled,Perjanjian Tingkat Layanan Terpenuhi
-,Welcome to ERPNext,Selamat Datang di ERPNext
+,Welcome to ERPV,Selamat Datang di ERPV
 apps/erpnext/erpnext/config/crm.py,Lead to Quotation,Prospek menuju Penawaran
 apps/erpnext/erpnext/regional/doctype/gst_settings/gst_settings.py,Email Reminders will be sent to all parties with email contacts,Pengingat Email akan dikirim ke semua pihak dengan kontak email
 DocType: Project,Twice Daily,Dua kali sehari
@@ -5697,7 +5697,7 @@ DocType: Account,Bank,Bank
 DocType: Job Card,Job Started,Pekerjaan Dimulai
 apps/erpnext/erpnext/setup/setup_wizard/data/industry_type.py,Airline,Maskapai Penerbangan
 apps/erpnext/erpnext/stock/doctype/material_request/material_request.js,Issue Material,Isu Material
-apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPNext,Hubungkan Shopify dengan ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect Shopify with ERPV,Hubungkan Shopify dengan ERPV
 DocType: Production Plan,For Warehouse,Untuk Gudang
 apps/erpnext/erpnext/stock/doctype/delivery_trip/delivery_trip.py,Delivery Notes {0} updated,Catatan Pengiriman {0} diperbarui
 DocType: Employee,Offer Date,Penawaran Tanggal
@@ -5820,7 +5820,7 @@ DocType: Leave Control Panel,Carry Forward,Carry Teruskan
 apps/erpnext/erpnext/accounts/doctype/cost_center/cost_center.py,Cost Center with existing transactions can not be converted to ledger,Biaya Center dengan transaksi yang ada tidak dapat dikonversi ke buku
 DocType: Budget,Applicable on booking actual expenses,Berlaku untuk memesan biaya sebenarnya
 DocType: Department,Days for which Holidays are blocked for this department.,Hari yang Holidays diblokir untuk departemen ini.
-DocType: Amazon MWS Settings,ERPNext Integrations,ERPNext Integrasi
+DocType: Amazon MWS Settings,ERPV Integrations,ERPV Integrasi
 DocType: Crop Cycle,Detected Disease,Penyakit Terdeteksi
 ,Produced,Diproduksi
 DocType: Issue,Raised By (Email),Dimunculkan Oleh (Email)
@@ -6598,7 +6598,7 @@ apps/erpnext/erpnext/manufacturing/report/bom_stock_report/bom_stock_report.py,I
 DocType: Delivery Trip,Calculate Estimated Arrival Times,Hitung Perkiraan Waktu Kedatangan
 apps/erpnext/erpnext/accounts/general_ledger.py,Account: {0} can only be updated via Stock Transactions,Akun: {0} hanya dapat diperbarui melalui Transaksi Persediaan
 DocType: Student Group Creation Tool,Get Courses,Dapatkan Program
-DocType: Tally Migration,ERPNext Company,Perusahaan ERPN
+DocType: Tally Migration,ERPV Company,Perusahaan ERPN
 DocType: Shopify Settings,Webhooks,Webhooks
 DocType: Bank Account,Party,Pihak
 DocType: Healthcare Settings,Patient Name,Nama pasien
@@ -6776,7 +6776,7 @@ DocType: Purchase Invoice Item,Allow Zero Valuation Rate,Biarkan Zero Valuation 
 DocType: Bank Guarantee,Receiving,Menerima
 DocType: Training Event Employee,Invited,diundang
 apps/erpnext/erpnext/config/accounting.py,Setup Gateway accounts.,Rekening Gateway setup.
-apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPNext,Hubungkan rekening bank Anda ke ERPNext
+apps/erpnext/erpnext/config/integrations.py,Connect your bank accounts to ERPV,Hubungkan rekening bank Anda ke ERPV
 DocType: Employee,Employment Type,Jenis Pekerjaan
 apps/erpnext/erpnext/config/projects.py,Make project from a template.,Buat proyek dari templat.
 apps/erpnext/erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py,Fixed Assets,Aktiva Tetap
